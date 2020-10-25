@@ -1,0 +1,521 @@
+{
+  "tab": {
+    "news": "News",
+    "stranded-ii": "Stranded II",
+    "download-content": "Download Content",
+    "modifications": "Modifications",
+    "tips-and-tutorials": "Tips and Tutorials",
+    "options": "Options"
+  },
+  "game": {
+    "button": {
+      "cancel": "Cancel",
+      "okay": "Okay",
+      "apply": "Apply"
+    },
+    "main-menu": {
+      "adventure": "Adventure",
+      "random-island": "Random Island",
+      "single-island": "Single Island",
+      "load": "Load",
+      "options": "Options",
+      "editor": "Editor",
+      "credits": "Credits",
+      "quit": "Quit"
+    },
+    "options-menu": {
+      "controls": "Controls",
+      "graphics": "Graphics",
+      "sound": "Sound"
+    },
+    "controls": {
+      "action": "Action",
+      "key": "Key",
+      "forward": "Forward",
+      "backward": "Backward",
+      "left": "Left",
+      "right": "Right",
+      "jump": "Jump / Close Menu",
+      "sprint": "Sprint",
+      "attack": "Attack"
+    },
+    "items": {
+      "1": {
+        "name": "Bag",
+        "info": "A nice tiny bag. Sad, it's empty..."
+      },
+      "2": {
+        "name": "Small Crystal",
+        "info": "A small crystal. Looks quite beautiful."
+      },
+      "3": {
+        "name": "Crystal",
+        "info": "A sparkling crystal. For what so ever it should be useful..."
+      },
+      "4": {
+        "name": "Gold Nugget",
+        "info": "A big gold nugget! I'm rich! (Even though I probably cannot buy anything on this island.)"
+      },
+      "5": {
+        "name": "Bag with Gold",
+        "info": "A bag full of gold! Marvellous, and what's that good for on a lonely island?"
+      },
+      "7": {
+        "name": "Log",
+        "info": "A heavy log. Why do I have to haul this bulky thing?"
+      },
+      "8": {
+        "name": "Bamboo",
+        "info": "Handy, such a robust stuff! It's a great material to cut into bolts that I can shoot with an arbalest."
+      },
+      "9": {
+        "name": "Meat",
+        "info": "A juicy piece of raw meat. I can fry it, eat it as it is or take it in my hand and throw it at wild animals..."
+      },
+      "10": {
+        "name": "Meat (fried)",
+        "info": "A big piece of fried meat."
+      },
+      "11": {
+        "name": "Small Meat",
+        "info": "A small piece of raw meat. Eatable, fryable and throwable."
+      },
+      "12": {
+        "name": "Small Meat (fried)",
+        "info": "A small piece of fried meat."
+      },
+      "13": {
+        "name": "Blue Blossom",
+        "info": "A blue blossom. Can be used to stop bleeding."
+      },
+      "14": {
+        "name": "Banana",
+        "info": "A delicious banana. Not only me but also monkeys do like it!"
+      },
+      "15": {
+        "name": "Leaf",
+        "info": "A green leaf. I can use a stone to press the water out of leaves if I have many of them."
+      },
+      "16": {
+        "name": "Bloodleaf",
+        "info": "A plant with crimson leaves."
+      },
+      "17": {
+        "name": "Healing Herb",
+        "info": "A herb with a healing effect."
+      },
+      "18": {
+        "name": "Strong Healing Herb",
+        "info": "A healing herb with a very strong effect."
+      },
+      "19": {
+        "name": "Goldherb",
+        "info": "A golden herb. Good against dizziness."
+      },
+      "20": {
+        "name": "Bitterroot",
+        "info": "An extremly acerbic, root-like plant."
+      },
+      "21": {
+        "name": "Pebbles",
+        "info": "Small pebbles - I'm sure they could be a good ammunition. All that's missing is something to fire it."
+      },
+      "22": {
+        "name": "Flint",
+        "info": "Striking two flint stones together provides the sparks needed to start a fire. Only one flint is useless..."
+      },
+      "23": {
+        "name": "Stone",
+        "info": "A heavy stone which can be used to create useful survival tools."
+      },
+      "24": {
+        "name": "Branch",
+        "info": "A branch. You can make it bendable with water or light it with fire."
+      },
+      "25": {
+        "name": "Bendable Branch",
+        "info": "A branch which has been made bendable with water."
+      },
+      "26": {
+        "name": "Vine",
+        "info": "A long vine. I can use it for example as a whip to drove animals."
+      },
+      "27": {
+        "name": "Coconut",
+        "info": "A coconut. It will take long to eat it because of its hard hull."
+      },
+      "28": {
+        "name": "Machete",
+        "info": "A sharp machete. Good for close combat or to separate bark from trees."
+      },
+      "29": {
+        "name": "Bullet",
+        "info": "Good ammo for guns."
+      },
+      "30": {
+        "name": "Hammer",
+        "info": "This hammer can be used to build stuff. It is also needed for combinations with iron."
+      },
+      "31": {
+        "name": "Mushroom",
+        "info": "A mushroom."
+      },
+      "32": {
+        "name": "Big Mushroom",
+        "info": "A big mushroom."
+      },
+      "33": {
+        "name": "Brown Mushroom",
+        "info": "A brown mushroom."
+      },
+      "34": {
+        "name": "Poison Mushroom",
+        "info": "A green, poisonous mushroom. I should be able to press the poison out of it with a stone."
+      },
+      "35": {
+        "name": "Dwarf Hat Mushroom",
+        "info": "A mushroom which looks like the hat of a dwarf."
+      },
+      "36": {
+        "name": "Healing Potion",
+        "info": "A healing potion which heals the player for 30 seconds."
+      },
+      "37": {
+        "name": "Poison",
+        "info": "Bilious green poision. How that tastes? Maybe I should try..."
+      },
+      "38": {
+        "name": "Water",
+        "info": "Fresh drinking water. You can also put it in your hand to throw it at fire."
+      },
+      "39": {
+        "name": "Wine",
+        "info": "Tasty wine. You shouldn't drink too much of it..."
+      },
+      "40": {
+        "name": "Bottle Post",
+        "info": "A bottle post with a message inside. What might be written there?"
+      },
+      "41": {
+        "name": "Sheaf of Grain",
+        "info": "I have to use it to get the grains out of it. In this state it's useless."
+      },
+      "42": {
+        "name": "Grains",
+        "info": "Can be grinded with a stone. Take them into your hand and use the ground in order to plant them."
+      },
+      "43": {
+        "name": "Flour",
+        "info": "A pile of flour. I can mix it with water to get dough."
+      },
+      "44": {
+        "name": "Bread",
+        "info": "A loaf of bread. Very filling!"
+      },
+      "45": {
+        "name": "Grapes",
+        "info": "They can be eaten or I can make wine out of them. Take them into your hand and use the ground in order to plant them."
+      },
+      "46": {
+        "name": "Berries",
+        "info": "Sweet red berries."
+      },
+      "47": {
+        "name": "Juice",
+        "info": "Healthy juice consisting of delicious fruits."
+      },
+      "48": {
+        "name": "Cotton",
+        "info": "Cotton, but for sure no cotton candy. I can use it to make cord out of it."
+      },
+      "49": {
+        "name": "Cord",
+        "info": "A tearproof cord - suitable to spin nets for fishing or catching butterflies."
+      },
+      "50": {
+        "name": "Fishing Rod",
+        "info": "A crooked fishing rod which allows me to fish! By fishing regularly I increase my skills and therefore my change of success."
+      },
+      "51": {
+        "name": "Slingshot",
+        "info": "A slingshot which can shoot small stuff like pebbles."
+      },
+      "52": {
+        "name": "Spear",
+        "info": "A spear which causes a lot of damage on animals. Every spear can be thrown only one time unless I'm an experienced hunter."
+      },
+      "53": {
+        "name": "Arrow",
+        "info": "An arrow with a solid arrowhead out of stone - causes raised damage."
+      },
+      "54": {
+        "name": "Wooden Arrow",
+        "info": "A plain wooden arrow - causes average damage."
+      },
+      "55": {
+        "name": "Poison Arrow",
+        "info": "This arrow causes poisoning. The target will die if it has no antidote!"
+      },
+      "56": {
+        "name": "Fire Arrow",
+        "info": "This arrow will start a fire at the target which will cause a lot of damage."
+      },
+      "57": {
+        "name": "Feather",
+        "info": "A bird's feather."
+      },
+      "58": {
+        "name": "Pistol",
+        "info": "This pistol has a very good accuracy and range."
+      },
+      "59": {
+        "name": "Bow",
+        "info": "A simple bow which can shoot arrows."
+      },
+      "60": {
+        "name": "Longbow",
+        "info": "A bow with a very good range."
+      },
+      "61": {
+        "name": "Golden Bow",
+        "info": "A noble golden bow - causes a lot of damage!"
+      },
+      "62": {
+        "name": "Bolt",
+        "info": "A wooden bolt, which can be shot with an arbalest for example."
+      },
+      "63": {
+        "name": "Iron Bolt",
+        "info": "A sharp iron bolt. Hurts pretty much if you get copped..."
+      },
+      "64": {
+        "name": "Arbalest",
+        "info": "A wooden arbalest to shoot bolts. The fired projectiles become faster and more accurate than with a bow."
+      },
+      "65": {
+        "name": "Watch",
+        "info": "This thing shows the exact time."
+      },
+      "66": {
+        "name": "Cookie",
+        "info": "Cookies with chocolate pieces! Yay!"
+      },
+      "67": {
+        "name": "Cocoa Fruit",
+        "info": "A cocoa fruit."
+      },
+      "68": {
+        "name": "Cocoa",
+        "info": "Dry cocoa powder."
+      },
+      "69": {
+        "name": "Butterflies",
+        "info": "These butterflies are helping me to carry more stuff. Thanks a lot, I owe you one!"
+      },
+      "70": {
+        "name": "Coffee Fruits",
+        "info": "Coffee fruits which contain a lot of caffeine."
+      },
+      "71": {
+        "name": "Bone",
+        "info": "Yuck - a bone! I ain't no dog, right?!"
+      },
+      "72": {
+        "name": "Excrement",
+        "info": "An elegant excrement. Also called shit or poop. This stuff stinks so much that I probably could poison someone with it..."
+      },
+      "73": {
+        "name": "Map",
+        "info": "A map! I'll never lose my way again."
+      },
+      "74": {
+        "name": "Sword",
+        "info": "A simple sword, as in the Middle Ages. Whether there existed stranded guys at that time?"
+      },
+      "75": {
+        "name": "Broadsword",
+        "info": "A sword with a very broad blade - even more Middle Ages Feeling in the tropics..."
+      },
+      "76": {
+        "name": "Crystal Blade",
+        "info": "A sword with a blade made out of unbelievable hard and sharp crystal. Belongs to the basic equipment of each survival expert..."
+      },
+      "77": {
+        "name": "Volleyball",
+        "info": "Yeah, nice! I'm just missing a net and an opponent..."
+      },
+      "78": {
+        "name": "Wilson",
+        "info": "My best friend Wilson. I hope the 'Cast Away' people are not going to sue me for this..."
+      },
+      "79": {
+        "name": "Rocket",
+        "info": "Missile for a rocket launcher - causes immense damage on impact!"
+      },
+      "80": {
+        "name": "Toxic Rocket",
+        "info": "Guess why such toys are prohibited even in wars. All things in its range will be contaminated immediately."
+      },
+      "81": {
+        "name": "Rocket Launcher",
+        "info": "That damn thing is heavy as hell and absolutely dispensable on a lonely island... Unless I just can't find a better way to light a fire."
+      },
+      "82": {
+        "name": "Dough",
+        "info": "Simple dough made of flour and water. I can use it close to fire in order to bake it."
+      },
+      "83": {
+        "name": "Hemp Leaf",
+        "info": "Hemp with an exhilarating agency..."
+      },
+      "84": {
+        "name": "Spade",
+        "info": "This spade can be used to dig (or to whack a beast over the head)."
+      },
+      "85": {
+        "name": "Iron",
+        "info": "A clump of iron. I can use a hammer to process it, but it can be used as is likewise to make tools."
+      },
+      "86": {
+        "name": "Iron Rod",
+        "info": "A robust iron rod. Important resource for diverse tools!"
+      },
+      "87": {
+        "name": "Axe",
+        "info": "Very good to damage things consisting of wood."
+      },
+      "88": {
+        "name": "Pickaxe",
+        "info": "Can be used to get minerals out of rocks more easily. Alternatively the pickaxe helps to eliminate rocks at all."
+      },
+      "89": {
+        "name": "Fish",
+        "info": "A raw fish. Can be eaten in sushi style or fried."
+      },
+      "90": {
+        "name": "Fish (fried)",
+        "info": "A fried fish."
+      },
+      "91": {
+        "name": "Joint",
+        "info": "A joint that makes people fairly high. I should dispose it as fast as possible! Drugs are bad!"
+      },
+      "92": {
+        "name": "Key",
+        "info": "A small key - it certainly belongs to a secret treasure chest buried at the beach..."
+      },
+      "93": {
+        "name": "Lock Pick",
+        "info": "A handy tool which can be used to crack locks."
+      },
+      "94": {
+        "name": "Tooth",
+        "info": "A spiky tooth."
+      },
+      "95": {
+        "name": "Claw",
+        "info": "A sharp claw of some threatening animals."
+      },
+      "96": {
+        "name": "Skin",
+        "info": "Skin of wild animals. I can create a tent out of this stuff when I combine it with branches."
+      },
+      "97": {
+        "name": "Tent",
+        "info": "I need a hammer to build it up. If required I can just take it down and build it up somewehere else again!"
+      },
+      "98": {
+        "name": "Insect Parts",
+        "info": "Crunchy parts of insects. They can be used as baits when I fish."
+      },
+      "99": {
+        "name": "Slime",
+        "info": "Sticky and disgusting!"
+      },
+      "100": {
+        "name": "Explosive Bait",
+        "info": "I can throw this at animals. They will explode when I press the remote trigger!"
+      },
+      "101": {
+        "name": "Remote Trigger",
+        "info": "A remote trigger for explosive baits."
+      },
+      "102": {
+        "name": "Shell",
+        "info": "A shell. I'm wondering what might be inside?"
+      },
+      "103": {
+        "name": "Starfish",
+        "info": "A starfish. I'm going to call him Patrick! Hurray!"
+      },
+      "104": {
+        "name": "Net",
+        "info": "Allows to catch little animals flying around."
+      },
+      "105": {
+        "name": "Scythe",
+        "info": "Though designed as a harvesting tool, the scythe can be a powerful weapon as well."
+      },
+      "106": {
+        "name": "Bottle",
+        "info": "An empty bottle made of glass, which can be filled with water at gushing springs."
+      },
+      "107": {
+        "name": "Bark",
+        "info": "A piece of bark. Maybe I can create fire with this..."
+      },
+      "108": {
+        "name": "Pearl",
+        "info": "A shiny pearl!"
+      },
+      "109": {
+        "name": "Seaweed",
+        "info": "Slimy, green seaweed."
+      },
+      "110": {
+        "name": "Shotgun",
+        "info": "This gun sucks a lot! In exchange it scatters so much I have to be directly in front of my target to hit it at all."
+      },
+      "111": {
+        "name": "Torch",
+        "info": "Besides providing illumination, you can attack with a torch to set other things on fire."
+      },
+      "112": {
+        "name": "Potion of Haste",
+        "info": "A potion which doubles my movement speed for a minute."
+      },
+      "113": {
+        "name": "Immortal Potion",
+        "info": "Tis potion makes me immortal for half a minute!"
+      },
+      "114": {
+        "name": "Air Potion",
+        "info": "A special air mixture which gives me air for breathing while diving."
+      },
+      "115": {
+        "name": "Chocolate Dough",
+        "info": "A dough with cocoa in it. I can use it close to a fire in order to bake it."
+      },
+      "116": {
+        "name": "Plums",
+        "info": "Plums! Good for the digestion. He-he..."
+      },
+      "117": {
+        "name": "Bandage",
+        "info": "A bandage which can be used when I have bleeding wounds."
+      },
+      "118": {
+        "name": "First Aid Box",
+        "info": "A first aid box which can be used when I have wounds, fractures or poisonings. Can be used infinitely."
+      },
+      "119": {
+        "name": "Worm",
+        "info": "A small worm. Will be used as bait when I fish to get something pretty big on the line!"
+      },
+      "120": {
+        "name": "Claw Spear",
+        "info": "A spear with sharp claws which can be thrown only once but causes serious damage."
+      }
+    }
+  }
+}

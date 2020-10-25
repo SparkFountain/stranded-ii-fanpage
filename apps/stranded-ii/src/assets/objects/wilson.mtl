@@ -1,0 +1,30 @@
+#
+# wilson.mtl
+#
+
+newmtl wilson
+illum 2
+Kd 0.800000 0.800000 0.800000
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\wilsonskin.jpg
+
+newmtl Material01
+illum 2
+Kd 0.800000 0.800000 0.800000
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\wilsonfaceskin.jpg
+
+newmtl Material02
+illum 2
+Kd 0.474510 0.239216 0.000000
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\thatch_border_a.png

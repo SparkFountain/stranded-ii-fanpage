@@ -1,0 +1,37 @@
+canvas {
+  margin: 0 !important;
+  width: 100vw;
+  height: 100vh;
+
+  &.in-game {
+    cursor: none !important;
+  }
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+
+  button {
+    display: block;
+    left: 50px;
+    margin-bottom: 15px;
+    pointer-events: auto;
+  }
+}
+
+.right-window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100vw - 300px);
+  height: 100vh;
+  background: red;
+}

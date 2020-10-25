@@ -1,0 +1,12 @@
+#
+# bambooitem.mtl
+#
+
+newmtl bamboo
+illum 2
+Kd 0.737255 0.752941 0.086275
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\bamboo_dry.jpg

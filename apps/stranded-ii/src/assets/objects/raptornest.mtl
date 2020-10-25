@@ -1,0 +1,30 @@
+#
+# raptornest.mtl
+#
+
+newmtl Material01
+illum 2
+Kd 0.600000 0.588235 0.043137
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\thatch_border_a.png
+
+newmtl Material02
+illum 2
+Kd 0.643137 0.741176 0.584314
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\eggs.bmp
+
+newmtl Material03
+illum 2
+Kd 0.803922 0.792157 0.580392
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\struc3.bmp

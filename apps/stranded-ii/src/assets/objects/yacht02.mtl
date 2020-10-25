@@ -1,0 +1,30 @@
+#
+# yacht02.mtl
+#
+
+newmtl Material02
+illum 2
+Kd 0.800000 0.800000 0.800000
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\yachtskin.bmp
+
+newmtl Material01
+illum 2
+Kd 0.992157 0.905882 0.725490
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\bamboowall.jpg
+
+newmtl Material01
+illum 2
+Kd 0.800000 0.800000 0.800000
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\spheremetal_sm.bmp

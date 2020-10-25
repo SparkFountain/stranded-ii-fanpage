@@ -1,1 +1,192 @@
-/* You can add global styles to this file, and also import other style files */
+@import './variables.scss';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  background: $dark;
+
+  cursor: url('/assets/gfx/sys/cursor.png'), auto;
+  font-family: $ui-font;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  // background: url('/assets/gfx/sys/background.jpg');
+  // background-size: cover;
+}
+
+.headline {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #3f3112;
+  text-decoration: underline;
+  cursor: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+thead {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+th,
+td {
+  padding: 10px 15px;
+}
+
+p {
+  font-family: $handwriting;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  img {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 225px;
+
+    &.shadow {
+      box-shadow: 0 0 5px 2px #333;
+    }
+  }
+}
+
+.at-char {
+  width: 10px;
+  height: 10px;
+  margin: 0 1px;
+}
+
+button {
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: inherit;
+  color: white;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.button-large {
+  width: 190px;
+  height: 45px;
+  background: url('/assets/gfx/sys/button-large.png');
+
+  &:hover {
+    background: url('/assets/gfx/sys/button-large-hover.png');
+  }
+}
+
+.button-small {
+  width: 32px;
+  height: 32px;
+  background: url('/assets/gfx/sys/button-small.png');
+
+  &:hover {
+    background: url('/assets/gfx/sys/button-small-hover.png');
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.content {
+  width: 100%;
+  height: calc(100% - 32px);
+  overflow-y: scroll;
+  margin: 0;
+  padding: 5px 32px 20px 32px;
+}
+
+app-header {
+  position: absolute;
+  top: 0;
+  left: calc(50% - #{$navigation-width} / 2);
+  display: flex;
+  min-width: $navigation-min-width;
+  width: $navigation-width;
+  max-width: $navigation-max-width;
+  height: 80px;
+  background: url('/assets/gfx/sys/woodback.png');
+  background-repeat: repeat;
+}
+
+app-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  top: 150px;
+  left: 20px;
+  width: 250px;
+  height: 750px;
+}
+
+app-content {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  min-width: $content-min-width;
+  width: $content-width;
+  max-width: $content-max-width;
+  height: calc(100vh - 200px);
+  background: url('/assets/gfx/sys/paperback.png');
+  background-size: 100% 100%;
+}
+
+app-footer {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  width: 100vw;
+  height: 200px;
+  background: url('/assets/gfx/sys/woodback-dark.png');
+}
+
+app-play-online {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 166px;
+  background: url('/assets/gfx/sys/woodback-dark.png');
+}

@@ -1,0 +1,3091 @@
+{
+  "building": [
+    {
+      "id": 150,
+      "icon": "buildplace.png",
+      "model": "buildplace.obj",
+      "behaviour": "buildingsite",
+      "collision": 2,
+      "health": 100,
+      "material": "WOOD",
+      "maxWeight": 1000000000
+    },
+    {
+      "id": 151,
+      "icon": "buildplace_water.png",
+      "model": "buildplace_water.obj",
+      "behaviour": "buildingsite_water",
+      "collision": 2,
+      "health": 100,
+      "material": "WOOD",
+      "maxWeight": 1000000000,
+      "sway": {
+        "speed": 3,
+        "power": 2
+      }
+    },
+    {
+      "id": 160,
+      "icon": "bamboohut01.png",
+      "model": "bamboohut01.obj",
+      "backfaceCulling": false,
+      "health": 200,
+      "material": "WOOD",
+      "behaviour": "cover"
+    },
+    {
+      "id": 161,
+      "icon": "bamboohut02.png",
+      "model": "bamboohut02.obj",
+      "health": 200,
+      "material": "WOOD",
+      "behaviour": "cover"
+    },
+    {
+      "id": 162,
+      "icon": "bamboohut03.png",
+      "model": "bamboohut03.obj",
+      "health": 200,
+      "material": "WOOD",
+      "behaviour": "cover"
+    },
+    {
+      "id": 163,
+      "icon": "fence01.png",
+      "model": "fence01.obj",
+      "health": 150,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 164,
+      "icon": "fence02.png",
+      "model": "fence02.obj",
+      "health": 150,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 165,
+      "icon": "shelter01.png",
+      "model": "shelter01.obj",
+      "backfaceCulling": false,
+      "health": 100,
+      "material": "WOOD",
+      "behaviour": "cover"
+    },
+    {
+      "id": 166,
+      "icon": "torch01.png",
+      "model": "torch01.obj",
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      },
+      "health": 100,
+      "material": "WOOD",
+      "behaviour": "torch",
+      "state": {
+        "x": 0,
+        "y": 39,
+        "z": 0
+      }
+    },
+    {
+      "id": 167,
+      "icon": "torch02.png",
+      "model": "torch02.obj",
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      },
+      "backfaceCulling": false,
+      "health": 100,
+      "material": "WOOD",
+      "behaviour": "torch",
+      "state": {
+        "x": 0,
+        "y": 43,
+        "z": 0
+      }
+    },
+    {
+      "id": 168,
+      "icon": "boardwall.png",
+      "model": "boardwall.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 1500,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 169,
+      "icon": "boardwallpart.png",
+      "model": "boardwallpart.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 250,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 170,
+      "icon": "boards.png",
+      "model": "boards.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 100,
+      "material": "wood"
+    },
+    {
+      "id": 171,
+      "icon": "fire01.png",
+      "model": "fire01.obj",
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "state": {
+        "x": 0,
+        "y": 5,
+        "z": 0
+      },
+      "health": 250,
+      "material": "WOOD",
+      "behaviour": "fireplace"
+    },
+    {
+      "id": 172,
+      "icon": "fire02.png",
+      "model": "fire02.obj",
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "state": {
+        "x": 0,
+        "y": 5,
+        "z": 0
+      },
+      "health": 300,
+      "material": "WOOD",
+      "behaviour": "fireplace"
+    },
+    {
+      "id": 173,
+      "icon": "sign.png",
+      "model": "sign.obj",
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "backfaceCulling": false,
+      "health": 150,
+      "material": "wood"
+    },
+    {
+      "id": 174,
+      "icon": "guidepost01.png",
+      "model": "guidepost01.obj",
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "health": 150,
+      "material": "wood"
+    },
+    {
+      "id": 175,
+      "icon": "guidepost02.png",
+      "model": "guidepost02.obj",
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "health": 150,
+      "material": "wood"
+    },
+    {
+      "id": 178,
+      "icon": "jetty01.png",
+      "model": "jetty01.obj",
+      "scale": {
+        "x": 1.7,
+        "y": 1.7,
+        "z": 1.7
+      },
+      "health": 500,
+      "material": "WOOD",
+      "behaviour": "aligntowater",
+      "collision": 3
+    },
+    {
+      "id": 179,
+      "icon": "jetty02.png",
+      "model": "jetty02.obj",
+      "scale": {
+        "x": 1.7,
+        "y": 1.7,
+        "z": 1.7
+      },
+      "health": 500,
+      "material": "WOOD",
+      "behaviour": "aligntowater",
+      "collision": 3
+    },
+    {
+      "id": 180,
+      "icon": "jetty03.png",
+      "model": "jetty03.obj",
+      "scale": {
+        "x": 1.7,
+        "y": 1.7,
+        "z": 1.7
+      },
+      "health": 500,
+      "material": "WOOD",
+      "behaviour": "aligntowater",
+      "collision": 3
+    },
+    {
+      "id": 181,
+      "icon": "storage.png",
+      "model": "storage.obj",
+      "health": 400,
+      "scale": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "material": "WOOD",
+      "maxWeight": 50000
+    },
+    {
+      "id": 182,
+      "icon": "fence03.png",
+      "model": "fence03.obj",
+      "health": 500,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 183,
+      "icon": "fence04.png",
+      "model": "fence04.obj",
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "health": 3000,
+      "material": "metal",
+      "collision": 3
+    },
+    {
+      "id": 184,
+      "icon": "tent.png",
+      "model": "tent.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 150,
+      "material": "none",
+      "behaviour": "cover"
+    },
+    {
+      "id": 187,
+      "icon": "waterpipe_empty.png",
+      "model": "waterpipe_empty.obj",
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "health": 300,
+      "material": "WOOD",
+      "behaviour": "waterpipe_empty"
+    },
+    {
+      "id": 188,
+      "icon": "waterpipe_full.png",
+      "model": "waterpipe_full.obj",
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "health": 300,
+      "material": "WOOD",
+      "behaviour": "waterpipe_full"
+    },
+    {
+      "id": 189,
+      "icon": "well.png",
+      "model": "well.obj",
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "health": 2000,
+      "material": "stone",
+      "behaviour": "watersource"
+    },
+    {
+      "id": 190,
+      "icon": "treehouse.png",
+      "model": "treehouse.obj",
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "health": 500,
+      "material": "WOOD",
+      "behaviour": "cover"
+    },
+    {
+      "id": 191,
+      "icon": "bownet.png",
+      "model": "bownet.obj",
+      "scale": {
+        "x": 1.7,
+        "y": 1.7,
+        "z": 1.7
+      },
+      "health": 300,
+      "sway": {
+        "speed": 1.8,
+        "power": 5
+      },
+      "material": "WOOD",
+      "backfaceCulling": false,
+      "behaviour": "aligntowater"
+    },
+    {
+      "id": 192,
+      "icon": "target.png",
+      "model": "target.obj",
+      "detailtex": 1,
+      "health": 5,
+      "material": "wood"
+    },
+    {
+      "id": 193,
+      "icon": "bambootower.png",
+      "model": "bambootower.obj",
+      "health": 50000,
+      "material": "WOOD",
+      "scale": {
+        "x": 1,
+        "y": 1.4,
+        "z": 1
+      },
+      "backfaceCulling": false
+    },
+    {
+      "id": 194,
+      "icon": "house.png",
+      "model": "house.obj",
+      "health": 100000,
+      "material": "stone",
+      "scale": {
+        "x": 2.4,
+        "y": 2.4,
+        "z": 2.4
+      },
+      "autofade": 3000,
+      "behaviour": "cover"
+    },
+    {
+      "id": 200,
+      "icon": "stance.png",
+      "model": "stance.obj",
+      "health": 500,
+      "material": "WOOD",
+      "collision": 4,
+      "behaviour": "cover"
+    },
+    {
+      "id": 201,
+      "icon": "kiwibreeding.png",
+      "model": "kiwibreeding.obj",
+      "health": 100,
+      "material": "WOOD",
+      "backfaceCulling": false
+    },
+    {
+      "id": 203,
+      "icon": "covering.png",
+      "model": "covering.obj",
+      "health": 100,
+      "material": "WOOD",
+      "backfaceCulling": false
+    },
+    {
+      "id": 205,
+      "icon": "trap.png",
+      "model": "trap.obj",
+      "health": 300,
+      "material": "WOOD",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.3,
+        "y": 1.3,
+        "z": 1.3
+      }
+    },
+    {
+      "id": 206,
+      "icon": "hut.png",
+      "model": "hut.obj",
+      "health": 5000,
+      "material": "WOOD",
+      "scale": {
+        "x": 1.7,
+        "y": 1.7,
+        "z": 1.7
+      },
+      "behaviour": "cover"
+    },
+    {
+      "id": 207,
+      "icon": "herbalgarden.png",
+      "model": "herbalgarden.obj",
+      "health": 1000,
+      "material": "dirt",
+      "collision": 3,
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    {
+      "id": 208,
+      "icon": "broken_well.png",
+      "model": "broken_well.obj",
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "health": 2000,
+      "material": "stone"
+    },
+    {
+      "id": 209,
+      "icon": "broken_bownet.png",
+      "model": "broken_bownet.obj",
+      "scale": {
+        "x": 1.7,
+        "y": 1.7,
+        "z": 1.7
+      },
+      "health": 300,
+      "sway": {
+        "speed": 1.8,
+        "power": 5
+      },
+      "material": "WOOD",
+      "backfaceCulling": false,
+      "behaviour": "aligntowater"
+    },
+    {
+      "id": 211,
+      "icon": "table.png",
+      "model": "table.obj",
+      "health": 300,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 212,
+      "icon": "desk.png",
+      "model": "desk.obj",
+      "health": 300,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 214,
+      "icon": "bigstorage.png",
+      "model": "bigstorage.obj",
+      "health": 700,
+      "scale": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "material": "WOOD",
+      "maxWeight": 250000
+    },
+    {
+      "id": 215,
+      "icon": "butterflygarden.png",
+      "model": "butterflygarden.obj",
+      "health": 1000,
+      "material": "dirt",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    {
+      "id": 216,
+      "icon": "hammock.png",
+      "model": "hammock.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 150,
+      "material": "none",
+      "behaviour": "cover",
+      "backfaceCulling": false
+    },
+    {
+      "id": 217,
+      "icon": "monkeyschool.png",
+      "model": "monkeyschool.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 500,
+      "material": "wood"
+    },
+    {
+      "id": 218,
+      "icon": "palisade.png",
+      "model": "palisade.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 8000,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 219,
+      "icon": "gate.png",
+      "model": "gate.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 8000,
+      "material": "WOOD",
+      "collision": 3
+    },
+    {
+      "id": 220,
+      "icon": "woodstorage.png",
+      "model": "woodstorage.obj",
+      "backfaceCulling": false,
+      "health": 3000,
+      "material": "WOOD",
+      "maxWeight": 500000
+    },
+    {
+      "id": 222,
+      "icon": "stonestorage.png",
+      "model": "stonestorage.obj",
+      "backfaceCulling": false,
+      "health": 3000,
+      "material": "WOOD",
+      "maxWeight": 300000
+    },
+    {
+      "id": 223,
+      "icon": "defensetower.png",
+      "model": "defensetower.obj",
+      "scale": {
+        "x": 1.2,
+        "y": 2,
+        "z": 1.2
+      },
+      "health": 3000,
+      "material": "WOOD",
+      "state": {
+        "x": 0,
+        "y": 28,
+        "z": 0
+      }
+    }
+  ],
+  "bush": [
+    {
+      "id": 30,
+      "icon": "baldbush01.png",
+      "model": "baldbush01.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 100,
+      "find": [
+        {
+          "item": 24,
+          "probability": 90,
+          "max": 5
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 31,
+      "icon": "bush01.png",
+      "model": "bush01.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 50,
+      "find": [
+        {
+          "item": 15,
+          "probability": 50,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "sway": {
+        "speed": 2,
+        "power": 1
+      },
+      "growTime": 5
+    },
+    {
+      "id": 32,
+      "icon": "bush02.png",
+      "model": "bush02.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 90,
+      "find": [
+        {
+          "item": 15,
+          "probability": 50,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "sway": {
+        "speed": 2,
+        "power": 1
+      },
+      "growTime": 5
+    },
+    {
+      "id": 33,
+      "icon": "bush03.png",
+      "model": "bush03.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 50,
+      "find": [
+        {
+          "item": 15,
+          "probability": 50,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "sway": {
+        "speed": 2,
+        "power": 1
+      },
+      "growTime": 5
+    },
+    {
+      "id": 34,
+      "icon": "bush04.png",
+      "model": "bush04.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 70,
+      "find": [
+        {
+          "item": 15,
+          "probability": 50,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 40,
+          "max": 2
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "sway": {
+        "speed": 2,
+        "power": 1
+      },
+      "growTime": 5
+    },
+    {
+      "id": 35,
+      "icon": "bush05.png",
+      "model": "bush05.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 30,
+      "find": [
+        {
+          "item": 15,
+          "probability": 20,
+          "max": 1
+        },
+        {
+          "item": 13,
+          "probability": 50,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 36,
+      "icon": "bush06.png",
+      "model": "bush06.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 70,
+      "find": [
+        {
+          "item": 15,
+          "probability": 50,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 37,
+      "icon": "bush07.png",
+      "model": "bush07.obj",
+      "backfaceCulling": false,
+      "collision": 0,
+      "health": 50,
+      "find": [
+        {
+          "item": 15,
+          "probability": 50,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 38,
+      "icon": "bush08.png",
+      "model": "bush08.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 70,
+      "find": [
+        {
+          "item": 15,
+          "probability": 50,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 39,
+      "icon": "bush09.png",
+      "model": "bush09.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 70,
+      "find": [
+        {
+          "item": 15,
+          "probability": 20,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 40,
+      "icon": "bush10.png",
+      "model": "bush10.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "collision": 2,
+      "health": 70,
+      "find": [
+        {
+          "item": 15,
+          "probability": 50,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 41,
+      "icon": "bush11.png",
+      "model": "bush11.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.65,
+        "y": 0.65,
+        "z": 0.65
+      },
+      "collision": 2,
+      "health": 70,
+      "find": [
+        {
+          "item": 15,
+          "probability": 40,
+          "max": 1
+        },
+        {
+          "item": 24,
+          "probability": 40,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 42,
+      "icon": "bush12.png",
+      "model": "bush12.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "collision": 2,
+      "health": 50,
+      "find": [
+        {
+          "item": 15,
+          "probability": 15,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 43,
+      "icon": "reed.png",
+      "model": "reed.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 60,
+      "find": [
+        {
+          "item": 15,
+          "probability": 20,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 44,
+      "icon": "grapevine.png",
+      "model": "grapevine.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.15,
+        "y": 1.15,
+        "z": 1.15
+      },
+      "collision": 2,
+      "health": 100,
+      "autofade": 300,
+      "spawn": {
+        "item": 45,
+        "growDuration": 3,
+        "radiusX": 4,
+        "radiusY": 5,
+        "offsetY": 18,
+        "objects": 3,
+        "amountPerObject": 5
+      },
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 45,
+      "icon": "bush13.png",
+      "model": "bush13.obj",
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 200,
+      "find": [
+        {
+          "item": 15,
+          "probability": 40,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "sway": {
+        "speed": 2.5,
+        "power": 2
+      },
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 46,
+      "icon": "berrybush.png",
+      "model": "bush12.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "collision": 0,
+      "health": 150,
+      "find": [
+        {
+          "item": 15,
+          "probability": 20,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "spawn": {
+        "item": 46,
+        "growDuration": 3,
+        "radiusX": 10,
+        "radiusY": 5,
+        "offsetY": 10,
+        "objects": 3,
+        "amountPerObject": 5
+      },
+      "material": "leaf",
+      "growTime": 10
+    },
+    {
+      "id": 47,
+      "icon": "cottonplant.png",
+      "model": "cottonplant.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "collision": 2,
+      "health": 150,
+      "find": [
+        {
+          "item": 48,
+          "probability": 75,
+          "max": 5
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "sway": {
+        "speed": 3,
+        "power": 2
+      },
+      "growTime": 5
+    },
+    {
+      "id": 48,
+      "icon": "seaweed.png",
+      "model": "seaweed.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "collision": 2,
+      "shine": 0.2,
+      "alpha": 0.6,
+      "health": 100,
+      "autofade": 300,
+      "material": "leaf",
+      "sway": {
+        "speed": 6,
+        "power": 10
+      },
+      "find": [
+        {
+          "item": 109,
+          "probability": 25,
+          "max": 1
+        }
+      ],
+      "growTime": 5
+    },
+    {
+      "id": 49,
+      "icon": "airweed.png",
+      "model": "seaweed.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "collision": 2,
+      "shine": 0.2,
+      "health": 100,
+      "autofade": 300,
+      "material": "leaf",
+      "color": [
+        0,
+        50,
+        255
+      ],
+      "alpha": 0.6,
+      "sway": {
+        "speed": 7,
+        "power": 15
+      }
+    },
+    {
+      "id": 185,
+      "icon": "bush14.png",
+      "model": "bush14.obj",
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "backfaceCulling": false,
+      "collision": 2,
+      "health": 200,
+      "find": [
+        {
+          "item": 15,
+          "probability": 40,
+          "max": 1
+        }
+      ],
+      "autofade": 300,
+      "material": "leaf",
+      "sway": {
+        "speed": 2,
+        "power": 1
+      },
+      "growTime": 5
+    },
+    {
+      "id": 186,
+      "icon": "bangfungus.png",
+      "model": "bangfungus.obj",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "health": 1,
+      "autofade": 300,
+      "material": "leaf",
+      "behaviour": "closekill",
+      "var": [
+        "radius,Explosionsradius, 65, 0",
+        "var=damage,Schaden,25,0"
+      ],
+      "growTime": 3
+    }
+  ],
+  "flower": [
+    {
+      "id": 100,
+      "icon": "flowers01.png",
+      "model": "flowers01.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 101,
+      "icon": "flowers02.png",
+      "model": "flowers02.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 102,
+      "icon": "flowers03.png",
+      "model": "flowers03.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 103,
+      "icon": "flowers04.png",
+      "model": "flowers04.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 104,
+      "icon": "flowers05.png",
+      "model": "flowers05.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 105,
+      "icon": "flowers06.png",
+      "model": "flowers06.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.35,
+        "y": 0.35,
+        "z": 0.35
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 106,
+      "icon": "flowers07.png",
+      "model": "flowers07.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.35,
+        "y": 0.35,
+        "z": 0.35
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 107,
+      "icon": "flowers08.png",
+      "model": "flowers08.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.35,
+        "y": 0.35,
+        "z": 0.35
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 108,
+      "icon": "flowers09.png",
+      "model": "flowers09.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.35,
+        "y": 0.35,
+        "z": 0.35
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 109,
+      "icon": "flowers10.png",
+      "model": "flowers10.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.35,
+        "y": 0.35,
+        "z": 0.35
+      },
+      "collision": 0,
+      "health": 5,
+      "autofade": 200
+    },
+    {
+      "id": 110,
+      "icon": "poisonflower.png",
+      "model": "poisonflower.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      "health": 70,
+      "state": {
+        "x": 0,
+        "y": 5,
+        "z": 0
+      },
+      "collision": 2,
+      "material": "leaf",
+      "behaviour": "closetrigger"
+    }
+  ],
+  "grass": [
+    {
+      "id": 50,
+      "icon": "gras01.png",
+      "model": "gras01.obj",
+      "alpha": 0.4,
+      "backfaceCulling": false,
+      "collision": 0,
+      "health": 5
+    },
+    {
+      "id": 51,
+      "icon": "gras02.png",
+      "model": "gras02.obj",
+      "alpha": 0.4,
+      "backfaceCulling": false,
+      "collision": 0,
+      "health": 5
+    },
+    {
+      "id": 52,
+      "icon": "gras02.png",
+      "model": "gras03.obj",
+      "alpha": 0.4,
+      "backfaceCulling": false,
+      "collision": 0,
+      "health": 5
+    },
+    {
+      "id": 53,
+      "icon": "meadow01.png",
+      "model": "meadow01.obj",
+      "alpha": 0.4,
+      "backfaceCulling": false,
+      "collision": 0,
+      "health": 30
+    }
+  ],
+  "palm": [
+    {
+      "id": 1,
+      "icon": "palm01.png",
+      "model": "palm01.obj",
+      "sway": {
+        "speed": 2,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 15,
+          "max": 3
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 15
+    },
+    {
+      "id": 2,
+      "icon": "palm02.png",
+      "model": "palm02.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "material": "WOOD",
+      "health": 200,
+      "find": [
+        {
+          "item": 15,
+          "probability": 10,
+          "max": 3
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 15
+    },
+    {
+      "id": 3,
+      "icon": "palm03.png",
+      "model": "palm03.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 20,
+          "max": 3
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 15
+    },
+    {
+      "id": 4,
+      "icon": "palm04.png",
+      "model": "palm04.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "material": "WOOD",
+      "health": 350,
+      "find": [
+        {
+          "item": 15,
+          "probability": 20,
+          "max": 3
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 15
+    },
+    {
+      "id": 5,
+      "icon": "palm05.png",
+      "model": "palm05.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 15,
+          "max": 3
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 15
+    },
+    {
+      "id": 6,
+      "icon": "palm06.png",
+      "model": "palm06.obj",
+      "sway": {
+        "speed": 1.5,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "material": "WOOD",
+      "health": 400,
+      "behaviour": "tree",
+      "healthchange": 15
+    },
+    {
+      "id": 7,
+      "icon": "hugepalm01.png",
+      "model": "hugepalm01.obj",
+      "sway": {
+        "speed": 1,
+        "power": 3
+      },
+      "backfaceCulling": false,
+      "material": "WOOD",
+      "health": 500,
+      "behaviour": "tree",
+      "healthchange": 15
+    },
+    {
+      "id": 8,
+      "icon": "bananapalm.png",
+      "model": "bananapalm.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.5,
+        "y": 4,
+        "z": 2.5
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 10,
+          "max": 3
+        }
+      ],
+      "spawn": {
+        "item": 14,
+        "growDuration": 3,
+        "radiusX": 15,
+        "radiusY": 3,
+        "offsetY": 125,
+        "objects": 3,
+        "amountPerObject": 1
+      },
+      "behaviour": "tree",
+      "healthchange": 15,
+      "growTime": 15,
+      "var": [
+        "max,Affen maximal,1,0"
+      ]
+    },
+    {
+      "id": 9,
+      "icon": "coconutpalm.png",
+      "model": "coconutpalm.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 10,
+          "max": 3
+        }
+      ],
+      "spawn": {
+        "item": 27,
+        "growDuration": 3,
+        "radiusX": 15,
+        "radiusY": 5,
+        "offsetY": 126,
+        "objects": 3,
+        "amountPerObject": 1
+      },
+      "behaviour": "tree",
+      "healthchange": 15,
+      "growTime": 15
+    },
+    {
+      "id": 213,
+      "icon": "lianapalm.png",
+      "model": "lianapalm.obj",
+      "sway": {
+        "speed": 2,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 15,
+          "max": 3
+        },
+        {
+          "item": 26,
+          "probability": 60,
+          "max": 3
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 15
+    }
+  ],
+  "stone": [
+    {
+      "id": 60,
+      "icon": "stone01.png",
+      "model": "stone01.obj",
+      "scale": {
+        "x": 1.3,
+        "y": 1.3,
+        "z": 1.3
+      },
+      "material": "stone",
+      "health": 150,
+      "autofade": 350
+    },
+    {
+      "id": 61,
+      "icon": "stone02.png",
+      "model": "stone02.obj",
+      "scale": {
+        "x": 1.3,
+        "y": 1.3,
+        "z": 1.3
+      },
+      "material": "stone",
+      "health": 200,
+      "autofade": 350
+    },
+    {
+      "id": 62,
+      "icon": "stone03.png",
+      "model": "stone03.obj",
+      "scale": {
+        "x": 1.3,
+        "y": 1.3,
+        "z": 1.3
+      },
+      "material": "stone",
+      "health": 100,
+      "autofade": 350
+    },
+    {
+      "id": 63,
+      "icon": "rock01.png",
+      "model": "rock01.obj",
+      "scale": {
+        "x": 4,
+        "y": 4,
+        "z": 4
+      },
+      "detailtex": 1,
+      "material": "stone",
+      "health": 1500,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "icon": "rock02.png",
+      "model": "rock02.obj",
+      "detailtex": 1,
+      "material": "stone",
+      "health": 30000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "icon": "rock03.png",
+      "model": "rock03.obj",
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "detailtex": 1,
+      "material": "stone",
+      "health": 1500,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "icon": "stone05.png",
+      "model": "stone05.obj",
+      "scale": {
+        "x": 0.55,
+        "y": 0.55,
+        "z": 0.55
+      },
+      "health": 1500,
+      "material": "stone"
+    },
+    {
+      "id": 67,
+      "icon": "rock04.png",
+      "model": "rock04.obj",
+      "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      "detailtex": 1,
+      "material": "stone",
+      "health": 3000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "icon": "rock05.png",
+      "model": "rock05.obj",
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "detailtex": 1,
+      "material": "stone",
+      "health": 3000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "icon": "rock06.png",
+      "model": "rock06.obj",
+      "detailtex": 1,
+      "material": "stone",
+      "health": 3000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "icon": "metalrock.png",
+      "model": "metalrock.obj",
+      "material": "stone",
+      "health": 10000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 40,
+          "max": 1
+        },
+        {
+          "item": 21,
+          "probability": 50,
+          "max": 5
+        },
+        {
+          "item": 85,
+          "probability": 30,
+          "max": 1
+        },
+        {
+          "item": 85,
+          "probability": 200,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "icon": "goldrock.png",
+      "model": "goldrock.obj",
+      "material": "stone",
+      "health": 1000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 40,
+          "max": 1
+        },
+        {
+          "item": 21,
+          "probability": 60,
+          "max": 5
+        },
+        {
+          "item": 4,
+          "probability": 30,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "icon": "crystalrock.png",
+      "model": "crystalrock.obj",
+      "material": "stone",
+      "health": 1000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 40,
+          "max": 1
+        },
+        {
+          "item": 21,
+          "probability": 60,
+          "max": 5
+        },
+        {
+          "item": 3,
+          "probability": 30,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "icon": "waterrock.png",
+      "model": "waterrock.obj",
+      "material": "stone",
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "health": 1000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ],
+      "var": [
+        "water,Wasser, 5, 0"
+      ],
+      "behaviour": "watersource"
+    },
+    {
+      "id": 74,
+      "icon": "waterrock0.png",
+      "model": "waterrock0.obj",
+      "material": "stone",
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "health": 1000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "icon": "fountain.png",
+      "model": "fountain.obj",
+      "material": "stone",
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "health": 5000,
+      "find": [
+        {
+          "item": 23,
+          "probability": 90,
+          "max": 2
+        },
+        {
+          "item": 21,
+          "probability": 90,
+          "max": 7
+        },
+        {
+          "item": 23,
+          "probability": 300,
+          "max": 1,
+          "min": 1,
+          "requiredItem": 88
+        }
+      ],
+      "behaviour": "fountain"
+    },
+    {
+      "id": 140,
+      "icon": "ruins01.png",
+      "model": "ruins01.obj",
+      "detailtex": 1,
+      "health": 2000,
+      "material": "stone",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": 141,
+      "icon": "ruins02.png",
+      "model": "ruins02.obj",
+      "detailtex": 1,
+      "health": 2000,
+      "material": "stone",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": 142,
+      "icon": "ruins03.png",
+      "model": "ruins03.obj",
+      "detailtex": 1,
+      "health": 2000,
+      "material": "stone",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": 143,
+      "icon": "ruins04.png",
+      "model": "ruins04.obj",
+      "detailtex": 1,
+      "health": 2000,
+      "material": "stone",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": 144,
+      "icon": "ruins05.png",
+      "model": "ruins05.obj",
+      "detailtex": 1,
+      "health": 2000,
+      "material": "stone",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": 145,
+      "icon": "ruins06.png",
+      "model": "ruins06.obj",
+      "detailtex": 1,
+      "health": 2000,
+      "material": "stone",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": 146,
+      "icon": "ruins07.png",
+      "model": "ruins07.obj",
+      "detailtex": 1,
+      "health": 2000,
+      "material": "stone",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": 147,
+      "icon": "ruins08.png",
+      "model": "ruins08.obj",
+      "detailtex": 1,
+      "health": 2000,
+      "material": "stone",
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": 148,
+      "icon": "cave.png",
+      "model": "cave.obj",
+      "detailtex": 1,
+      "health": 3000,
+      "material": "stone",
+      "scale": {
+        "x": 1.8,
+        "y": 1.8,
+        "z": 1.8
+      },
+      "behaviour": "cover"
+    }
+  ],
+  "stuff": [
+    {
+      "id": 120,
+      "icon": "bamboo.png",
+      "model": "bamboo.obj",
+      "backfaceCulling": false,
+      "health": 100,
+      "find": [
+        {
+          "item": 8,
+          "probability": 100,
+          "max": 3
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "id": 121,
+      "icon": "grain.png",
+      "model": "grain.obj",
+      "behaviour": "plague_target",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "sway": {
+        "speed": 2,
+        "power": 5
+      },
+      "collision": 2,
+      "health": 45,
+      "material": "leaf",
+      "growTime": 5
+    },
+    {
+      "id": 122,
+      "icon": "marble01.png",
+      "model": "marble01.obj",
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "health": 300,
+      "material": "stone"
+    },
+    {
+      "id": 123,
+      "icon": "marble02.png",
+      "model": "marble02.obj",
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "health": 500,
+      "material": "stone"
+    },
+    {
+      "id": 124,
+      "icon": "marble03.png",
+      "model": "marble03.obj",
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      },
+      "health": 100,
+      "material": "stone"
+    },
+    {
+      "id": 125,
+      "icon": "marble04.png",
+      "model": "marble04.obj",
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      },
+      "health": 300,
+      "material": "stone"
+    },
+    {
+      "id": 130,
+      "icon": "roots01.png",
+      "model": "roots01.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.85,
+        "y": 0.85,
+        "z": 0.85
+      },
+      "health": 50,
+      "autofade": 200,
+      "material": "wood"
+    },
+    {
+      "id": 131,
+      "icon": "roots02.png",
+      "model": "roots02.obj",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.85,
+        "y": 0.85,
+        "z": 0.85
+      },
+      "health": 50,
+      "autofade": 200,
+      "material": "wood"
+    },
+    {
+      "id": 132,
+      "icon": "stump01.png",
+      "model": "stump01.obj",
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "health": 100,
+      "autofade": 400,
+      "material": "wood"
+    },
+    {
+      "id": 133,
+      "icon": "stump02.png",
+      "model": "stump02.obj",
+      "health": 100,
+      "autofade": 400,
+      "material": "wood"
+    },
+    {
+      "id": 134,
+      "icon": "hemp.png",
+      "model": "hemp.obj",
+      "collision": 2,
+      "health": 100,
+      "autofade": 400,
+      "material": "leaf",
+      "growTime": 3
+    },
+    {
+      "id": 135,
+      "icon": "stump03.png",
+      "model": "stump03.obj",
+      "health": 50,
+      "autofade": 400,
+      "material": "wood"
+    },
+    {
+      "id": 136,
+      "icon": "crate01.png",
+      "model": "crate01.obj",
+      "health": 15,
+      "color": [
+        300,
+        300,
+        300
+      ],
+      "material": "WOOD",
+      "maxWeight": 30000
+    },
+    {
+      "id": 137,
+      "icon": "barrel.png",
+      "model": "barrel.obj",
+      "health": 15,
+      "color": [
+        300,
+        300,
+        300
+      ],
+      "material": "WOOD",
+      "maxWeight": 30000
+    },
+    {
+      "id": 138,
+      "icon": "wreck01.png",
+      "model": "wreck01.obj",
+      "health": 300,
+      "material": "WOOD",
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      }
+    },
+    {
+      "id": 139,
+      "icon": "explosivebarrel.png",
+      "model": "explosivebarrel.obj",
+      "health": 5,
+      "color": [
+        300,
+        300,
+        300
+      ],
+      "material": "WOOD",
+      "var": [
+        "radius,Explosionsradius,100,0",
+        "var=damage,Schaden,50,0"
+      ]
+    },
+    {
+      "id": 196,
+      "icon": "raptornest.png",
+      "model": "raptornest.obj",
+      "health": 100,
+      "material": "leaf",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "var": [
+        "radius,Radius,500,0",
+        "var=count,Raptoren pro Tag,1,0",
+        "var=max,Raptoren maximal, 1, 0"
+      ]
+    },
+    {
+      "id": 197,
+      "icon": "kiwinest.png",
+      "model": "kiwinest.obj",
+      "health": 30,
+      "material": "leaf",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "var": [
+        "radius,Radius,500,0",
+        "count,Kiwis pro Tag,1,0",
+        "max,Kiwis maximal,1,0"
+      ]
+    },
+    {
+      "id": 198,
+      "icon": "parrotnest.png",
+      "model": "parrotnest.obj",
+      "health": 50,
+      "material": "leaf",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      },
+      "var": [
+        "radius,Radius,700,0",
+        "count,Papageien pro Tag,1,0",
+        "max,Papageien maximal,1,0"
+      ]
+    },
+    {
+      "id": 199,
+      "icon": "lionstone.png",
+      "model": "lionstone.obj",
+      "health": 300,
+      "material": "stone",
+      "find": [
+        {
+          "item": 23,
+          "probability": 60,
+          "max": 1
+        },
+        {
+          "item": 21,
+          "probability": 60,
+          "max": 10
+        },
+        {
+          "item": 11,
+          "probability": 20
+        },
+        {
+          "item": 71,
+          "probability": 15
+        }
+      ],
+      "var": [
+        "radius,Radius,500,0",
+        "count,Löwen pro Tag,1,0",
+        "max,Löwen maximal,1,0"
+      ]
+    },
+    {
+      "id": 202,
+      "icon": "moss.png",
+      "model": "moss.obj",
+      "health": 300,
+      "collision": 0,
+      "material": "plant",
+      "alpha": 0.35,
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "backfaceCulling": false,
+      "var": [
+        "max,Pilze maximal,3,0",
+        "max2,Schnecken maximal,1,0"
+      ]
+    },
+    {
+      "id": 204,
+      "icon": "birdnest.png",
+      "model": "birdnest.obj",
+      "health": 50,
+      "material": "leaf",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      },
+      "var": [
+        "radius,Radius,700,0",
+        "count,Vögel pro Tag,1,0",
+        "Vögel maximal,1,0"
+      ]
+    },
+    {
+      "id": 210,
+      "icon": "coral01.png",
+      "model": "coral01.obj",
+      "health": 50,
+      "material": "leaf",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "collision": 2,
+      "sway": {
+        "speed": 2,
+        "power": 15
+      },
+      "var": [
+        "radius,Radius,400,0",
+        "count,Fische pro Tag,1,0",
+        "max,Fische maximal,1,0"
+      ]
+    },
+    {
+      "id": 221,
+      "icon": "aerie.png",
+      "model": "aerie.obj",
+      "health": 500,
+      "material": "stone",
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "var": [
+        "radius,Radius, 1000, 0",
+        "count,Adler pro Tag, 1, 0",
+        "max,Adler maximal, 1, 0"
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "id": 10,
+      "icon": "tree01.png",
+      "model": "tree01.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "material": "WOOD",
+      "health": 600,
+      "find": [
+        {
+          "item": 15,
+          "probability": 20,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 40,
+          "max": 5
+        },
+        {
+          "item": 26,
+          "probability": 15,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 5,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 300
+    },
+    {
+      "id": 11,
+      "icon": "tree02.png",
+      "model": "tree02.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.3,
+        "y": 1.3,
+        "z": 1.3
+      },
+      "material": "WOOD",
+      "health": 150,
+      "find": [
+        {
+          "item": 26,
+          "probability": 20,
+          "max": 3
+        },
+        {
+          "item": 107,
+          "probability": 5,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 75
+    },
+    {
+      "id": 12,
+      "icon": "tree03.png",
+      "model": "tree03.obj",
+      "sway": {
+        "speed": 0.5,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 25,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 40,
+          "max": 3
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 150
+    },
+    {
+      "id": 13,
+      "icon": "tree04.png",
+      "model": "tree04.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "material": "WOOD",
+      "health": 400,
+      "find": [
+        {
+          "item": 15,
+          "probability": 10,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 25,
+          "max": 3
+        },
+        {
+          "item": 26,
+          "probability": 10,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 5,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 200
+    },
+    {
+      "id": 14,
+      "icon": "tree05.png",
+      "model": "tree05.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "material": "WOOD",
+      "health": 600,
+      "find": [
+        {
+          "item": 15,
+          "probability": 20,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 40,
+          "max": 5
+        },
+        {
+          "item": 26,
+          "probability": 10,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 5,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 300
+    },
+    {
+      "id": 15,
+      "icon": "tree06.png",
+      "model": "tree06.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "material": "WOOD",
+      "health": 400,
+      "find": [
+        {
+          "item": 15,
+          "probability": 25,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 40,
+          "max": 5
+        },
+        {
+          "item": 107,
+          "probability": 10,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 200
+    },
+    {
+      "id": 16,
+      "icon": "tree07.png",
+      "model": "tree07.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 1.7,
+        "y": 1.7,
+        "z": 1.7
+      },
+      "material": "WOOD",
+      "health": 500,
+      "find": [
+        {
+          "item": 15,
+          "probability": 25,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 40,
+          "max": 5
+        },
+        {
+          "item": 107,
+          "probability": 10,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 250
+    },
+    {
+      "id": 17,
+      "icon": "lianatree.png",
+      "model": "lianatree.obj",
+      "sway": {
+        "speed": 1,
+        "power": 1
+      },
+      "scale": {
+        "x": 2.4,
+        "y": 2.4,
+        "z": 2.4
+      },
+      "backfaceCulling": false,
+      "material": "WOOD",
+      "health": 350,
+      "find": [
+        {
+          "item": 26,
+          "probability": 40,
+          "max": 4
+        },
+        {
+          "item": 107,
+          "probability": 10,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 175
+    },
+    {
+      "id": 18,
+      "icon": "cacaotree.png",
+      "model": "cacaotree.obj",
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "backfaceCulling": false,
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 10,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 10,
+          "max": 5
+        },
+        {
+          "item": 107,
+          "probability": 5,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "spawn": {
+        "item": 67,
+        "growDuration": 3,
+        "radiusX": 15,
+        "radiusY": 30,
+        "offsetY": 75,
+        "objects": 3,
+        "amountPerObject": 1
+      },
+      "behaviour": "tree",
+      "healthchange": 150,
+      "growTime": 10
+    },
+    {
+      "id": 19,
+      "icon": "coffeetree.png",
+      "model": "coffeetree.obj",
+      "scale": {
+        "x": 3,
+        "y": 1.75,
+        "z": 3
+      },
+      "backfaceCulling": false,
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 10,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 10,
+          "max": 5
+        },
+        {
+          "item": 107,
+          "probability": 5,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "spawn": {
+        "item": 70,
+        "growDuration": 3,
+        "radiusX": 30,
+        "radiusY": 30,
+        "offsetY": 45,
+        "objects": 3,
+        "amountPerObject": 5
+      },
+      "behaviour": "tree",
+      "healthchange": 150,
+      "growTime": 10
+    },
+    {
+      "id": 195,
+      "icon": "cacaotree.png",
+      "model": "cacaotree.obj",
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "backfaceCulling": false,
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 15,
+          "probability": 10,
+          "max": 3
+        },
+        {
+          "item": 24,
+          "probability": 10,
+          "max": 5
+        },
+        {
+          "item": 107,
+          "probability": 5,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 150,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "spawn": {
+        "item": 116,
+        "growDuration": 3,
+        "radiusX": 15,
+        "radiusY": 30,
+        "offsetY": 75,
+        "objects": 3,
+        "amountPerObject": 1
+      },
+      "behaviour": "tree",
+      "healthchange": 150,
+      "growTime": 10
+    },
+    {
+      "id": 20,
+      "icon": "fir01.png",
+      "model": "fir01.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 24,
+          "probability": 15,
+          "max": 3
+        },
+        {
+          "item": 107,
+          "probability": 20,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 20,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 200,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 300
+    },
+    {
+      "id": 21,
+      "icon": "fir01.png",
+      "model": "fir02.obj",
+      "sway": {
+        "speed": 1,
+        "power": 2
+      },
+      "backfaceCulling": false,
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "material": "WOOD",
+      "health": 300,
+      "find": [
+        {
+          "item": 24,
+          "probability": 15,
+          "max": 3
+        },
+        {
+          "item": 107,
+          "probability": 20,
+          "max": 1
+        },
+        {
+          "item": 107,
+          "probability": 200,
+          "max": 3,
+          "min": 1,
+          "requiredItem": 28
+        }
+      ],
+      "behaviour": "tree",
+      "healthchange": 300
+    }
+  ]
+}

@@ -35,6 +35,12 @@
     },
     "api-interfaces": {
       "tags": []
+    },
+    "classes": {
+      "tags": []
+    },
+    "enums": {
+      "tags": []
     }
   }
 }

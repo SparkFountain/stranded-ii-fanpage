@@ -1,0 +1,36 @@
+<canvas
+  #gameCanvas
+  touch-action="none"
+  oncontextmenu="return false;"
+  [ngClass]="{ 'in-game': activeMenu === 'game' }"
+></canvas>
+
+<div class="menu" *ngIf="activeMenu === 'main'">
+  <div class="buttons-top">
+    <button class="button-large" (click)="adventure()">Abenteuer</button>
+    <button class="button-large" (click)="randomIsland()">Zufallsinsel</button>
+    <button class="button-large" (click)="singleIsland()">Einzelinsel</button>
+  </div>
+
+  <div class="buttons-middle">
+    <button class="button-large" (click)="(null)">Optionen</button>
+    <button class="button-large" (click)="(null)">Editor</button>
+    <button class="button-large" (click)="(null)">Credits</button>
+  </div>
+
+  <div id="buttons-bottom">
+    <button class="button-large" (click)="(null)">Beenden</button>
+  </div>
+
+  <!-- <div class="right-window">
+    <app-header [menus]="['options']"></app-header>
+    <app-content></app-content>
+  </div> -->
+</div>
+
+<app-options-menu
+  class="menu"
+  *ngIf="activeMenu === 'options'"
+></app-options-menu>
+
+<app-editor *ngIf="false"></app-editor>

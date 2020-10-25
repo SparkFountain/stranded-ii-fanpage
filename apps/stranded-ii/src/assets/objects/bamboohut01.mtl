@@ -1,0 +1,39 @@
+#
+# bamboohut01.mtl
+#
+
+newmtl bamboowall
+illum 2
+Kd 0.929412 0.807843 0.396078
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\bamboowall.jpg
+
+newmtl bamboo
+illum 2
+Kd 0.678431 0.596078 0.270588
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\bamboo_dry.jpg
+
+newmtl thatch
+illum 2
+Kd 0.427451 0.556863 0.192157
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\thatch.jpg
+
+newmtl thatch_border
+illum 2
+Kd 0.427451 0.556863 0.192157
+Ka 0.200000 0.200000 0.200000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd ../textures/.\thatch_border_a.png

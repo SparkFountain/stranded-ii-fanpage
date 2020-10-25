@@ -1,0 +1,19 @@
+$ui-font: 'Alegreya Sans SC', sans-serif;
+$handwriting: 'IM Fell DW Pica', serif;
+
+/* COLORS */
+$active: #d20;
+$white: #ddd;
+
+$dark: #222;
+
+/* WIDTH AND HEIGHT */
+$cardSize: 600px;
+
+$navigation-min-width: 780px;
+$navigation-width: calc(100vw - 500px);
+$navigation-max-width: 1440px;
+
+$content-min-width: calc(#{$navigation-min-width} - 32px);
+$content-width: calc(#{$navigation-width} - 32px);
+$content-max-width: calc(#{$navigation-max-width} - 32px);

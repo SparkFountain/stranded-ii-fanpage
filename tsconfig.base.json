@@ -18,7 +18,9 @@
     "paths": {
       "@stranded-ii-fanpage/api-interfaces": [
         "libs/api-interfaces/src/index.ts"
-      ]
+      ],
+      "@stranded-ii-fanpage/classes": ["libs/classes/src/index.ts"],
+      "@stranded-ii-fanpage/enums": ["libs/enums/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

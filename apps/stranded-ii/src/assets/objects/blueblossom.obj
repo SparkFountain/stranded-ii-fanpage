@@ -1,0 +1,39 @@
+# Wavefront OBJ exported by MilkShape 3D
+
+mtllib blueblossom.mtl
+
+v 2.406924 0.171666 7.515546
+v 1.813174 -0.362952 -7.729743
+v -1.767717 4.808075 7.515547
+v -2.361469 4.273459 -7.729742
+v -1.995424 0.405409 7.678806
+v -2.589176 -0.129207 -7.566485
+v 2.634633 4.574332 7.352289
+v 2.040880 4.039716 -7.893001
+# 8 vertices
+
+vt 0.050479 0.978652
+vt 0.050479 0.010426
+vt 0.467628 0.978652
+vt 0.467628 0.010426
+# 4 texture coordinates
+
+vn 0.742126 0.668214 -0.052336
+vn 0.669131 -0.743145 -0.000000
+# 2 normals
+
+g Box01
+usemtl flower
+s 1
+f 1/1/1 2/2/1 3/3/1
+f 2/2/1 4/4/1 3/3/1
+# 2 triangles in group
+
+g Duplicate01
+usemtl flower
+f 5/1/2 6/2/2 7/3/2
+f 6/2/2 8/4/2 7/3/2
+# 2 triangles in group
+
+# 4 triangles total
+

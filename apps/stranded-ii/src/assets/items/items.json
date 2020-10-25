@@ -1,0 +1,1269 @@
+{
+  "food": [
+    {
+      "id": 9,
+      "icon": "meat.bmp",
+      "model": "meat.obj",
+      "scale": 0.15,
+      "mat": "flesh",
+      "weight": 500,
+      "behaviour": "throw",
+      "damage": 0,
+      "speed": 15,
+      "drag": 1.8,
+      "rate": 3000
+    },
+    {
+      "id": 10,
+      "icon": "friedmeat.bmp",
+      "model": "friedmeat.obj",
+      "scale": 0.15,
+      "mat": "flesh",
+      "weight": 500,
+      "rate": 3000
+    },
+    {
+      "id": 11,
+      "icon": "smallmeat.bmp",
+      "model": "clod.obj",
+      "color": [
+        200,
+        50,
+        50
+      ],
+      "scale": 2,
+      "mat": "flesh",
+      "weight": 250,
+      "behaviour": "throw",
+      "damage": 0,
+      "speed": 15,
+      "drag": 1.8,
+      "rate": 3000
+    },
+    {
+      "id": 12,
+      "icon": "smallmeatfried.bmp",
+      "model": "clod.obj",
+      "color": [
+        128,
+        64,
+        0
+      ],
+      "scale": 2,
+      "mat": "flesh",
+      "weight": 250
+    },
+    {
+      "id": 14,
+      "icon": "banana.bmp",
+      "model": "banana.obj",
+      "fx": 16,
+      "scale": 0.3,
+      "mat": "fruit",
+      "weight": 200,
+      "behaviour": "throw",
+      "damage": 0,
+      "speed": 15,
+      "drag": 1.8,
+      "rate": 3000
+    },
+    {
+      "id": 16,
+      "icon": "bloodleaf.bmp",
+      "model": "bloodleaf.obj",
+      "scale": 0.5,
+      "fx": 16,
+      "mat": "leaf",
+      "weight": 50,
+      "healthchange": 0
+    },
+    {
+      "id": 17,
+      "icon": "herb01.bmp",
+      "model": "herb01.obj",
+      "scale": 0.3,
+      "fx": 16,
+      "mat": "leaf",
+      "weight": 50,
+      "healthchange": 0
+    },
+    {
+      "id": 18,
+      "icon": "herb02.bmp",
+      "model": "herb02.obj",
+      "scale": 0.5,
+      "fx": 16,
+      "mat": "leaf",
+      "weight": 100,
+      "healthchange": 0
+    },
+    {
+      "id": 19,
+      "icon": "herb03.bmp",
+      "model": "herb03.obj",
+      "scale": 0.7,
+      "fx": 16,
+      "mat": "leaf",
+      "weight": 80,
+      "healthchange": 0
+    },
+    {
+      "id": 20,
+      "icon": "herb04.bmp",
+      "model": "herb04.obj",
+      "scale": 0.5,
+      "fx": 16,
+      "alpha": 0.8,
+      "mat": "leaf",
+      "weight": 70,
+      "healthchange": 0
+    },
+    {
+      "id": 27,
+      "icon": "coconut.bmp",
+      "model": "coconut.obj",
+      "scale": 0.30,
+      "mat": "wood",
+      "weight": 300,
+      "behaviour": "ammo: 81"
+    },
+    {
+      "id": 31,
+      "icon": "fungus01.bmp",
+      "model": "fungus01.obj",
+      "scale": 0.3,
+      "mat": "fruit",
+      "weight": 50,
+      "healthchange": 0
+    },
+    {
+      "id": 32,
+      "icon": "fungus04.bmp",
+      "model": "fungus04.obj",
+      "scale": 0.3,
+      "mat": "fruit",
+      "weight": 90,
+      "healthchange": 0
+    },
+    {
+      "id": 33,
+      "icon": "fungus02.bmp",
+      "model": "fungus02.obj",
+      "scale": 0.3,
+      "mat": "fruit",
+      "weight": 50,
+      "healthchange": 0
+    },
+    {
+      "id": 34,
+      "icon": "fungus03.bmp",
+      "model": "fungus03.obj",
+      "scale": 0.3,
+      "mat": "fruit",
+      "weight": 50,
+      "healthchange": 0
+    },
+    {
+      "id": 35,
+      "icon": "fungus05.bmp",
+      "model": "fungus05.obj",
+      "scale": 0.3,
+      "mat": "fruit",
+      "weight": 50,
+      "healthchange": 0
+    },
+    {
+      "id": 42,
+      "icon": "grainpile.bmp",
+      "model": "grainpile.obj",
+      "scale": 0.65,
+      "mat": "dust",
+      "weight": 50
+    },
+    {
+      "id": 43,
+      "icon": "flour.bmp",
+      "model": "flour.obj",
+      "scale": 0.65,
+      "mat": "dust",
+      "weight": 250
+    },
+    {
+      "id": 44,
+      "icon": "bread.bmp",
+      "model": "bread.obj",
+      "scale": 0.6,
+      "mat": "dust",
+      "weight": 350
+    },
+    {
+      "id": 45,
+      "icon": "grape.bmp",
+      "model": "berries.obj",
+      "color": [
+        250,
+        0,
+        200
+      ],
+      "scale": 0.27,
+      "mat": "fruit",
+      "weight": 10,
+      "behaviour": "ammo: 51",
+      "damage": 1
+    },
+    {
+      "id": 46,
+      "icon": "berries.bmp",
+      "model": "berries.obj",
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "scale": 0.27,
+      "mat": "fruit",
+      "weight": 10,
+      "behaviour": "ammo: 51",
+      "damage": 1
+    },
+    {
+      "id": 66,
+      "icon": "cookie.bmp",
+      "model": "cookie.obj",
+      "scale": 0.35,
+      "mat": "dust",
+      "weight": 25
+    },
+    {
+      "id": 67,
+      "icon": "cacaofruit.bmp",
+      "model": "cacaofruit.obj",
+      "scale": 0.40,
+      "mat": "fruit",
+      "weight": 100
+    },
+    {
+      "id": 68,
+      "icon": "cacao.bmp",
+      "model": "cacao.obj",
+      "scale": 0.65,
+      "mat": "dust",
+      "weight": 300
+    },
+    {
+      "id": 70,
+      "icon": "coffeefruits.bmp",
+      "model": "berries.obj",
+      "color": [
+        170,
+        0,
+        0
+      ],
+      "scale": 0.27,
+      "mat": "fruit",
+      "weight": 50,
+      "behaviour": "ammo: 51",
+      "damage": 1
+    },
+    {
+      "id": 82,
+      "icon": "paste.bmp",
+      "model": "paste.obj",
+      "scale": 0.65,
+      "mat": "dirt",
+      "weight": 350
+    },
+    {
+      "id": 89,
+      "icon": "fishitem.bmp",
+      "model": "fishitem.obj",
+      "fx": 16,
+      "mat": "flesh",
+      "weight": 300
+    },
+    {
+      "id": 90,
+      "icon": "friedfishitem.bmp",
+      "model": "friedfishitem.obj",
+      "fx": 16,
+      "mat": "flesh",
+      "weight": 250
+    },
+    {
+      "id": 98,
+      "icon": "insects.bmp",
+      "mat": "flesh",
+      "weight": 5
+    },
+    {
+      "id": 99,
+      "icon": "slime.bmp",
+      "mat": "water",
+      "weight": 10
+    },
+    {
+      "id": 109,
+      "icon": "seaweed.bmp",
+      "model": "seaweeditem.obj",
+      "mat": "leaf",
+      "fx": 16,
+      "scale": 1.7,
+      "alpha": 0.8,
+      "weight": 20
+    },
+    {
+      "id": 115,
+      "icon": "chocopaste.bmp",
+      "model": "chocopaste.obj",
+      "scale": 0.65,
+      "mat": "dirt",
+      "weight": 350
+    },
+    {
+      "id": 116,
+      "icon": "plums.bmp",
+      "model": "plums.obj",
+      "color": [
+        250,
+        0,
+        200
+      ],
+      "scale": 0.65,
+      "mat": "fruit",
+      "weight": 30,
+      "behaviour": "ammo: 51",
+      "damage": 1
+    },
+    {
+      "id": 119,
+      "icon": "worm.bmp",
+      "mat": "flesh",
+      "weight": 10
+    }
+  ],
+  "potion": [
+    {
+      "id": 36,
+      "icon": "healthpotion.bmp",
+      "model": "healthpotion.obj",
+      "scale": 0.3,
+      "mat": "glass",
+      "weight": 100,
+      "healthchange": 0
+    },
+    {
+      "id": 38,
+      "icon": "water.bmp",
+      "model": "water.obj",
+      "scale": 0.3,
+      "mat": "glass",
+      "weight": 500,
+      "behaviour": "killthrow",
+      "damage": 0,
+      "speed": 15,
+      "drag": 1.8,
+      "rate": 400
+    },
+    {
+      "id": 39,
+      "icon": "wine.bmp",
+      "model": "wine.obj",
+      "scale": 0.28,
+      "mat": "glass",
+      "weight": 450
+    },
+    {
+      "id": 47,
+      "icon": "juice.bmp",
+      "model": "juice.obj",
+      "scale": 0.28,
+      "mat": "glass",
+      "weight": 450
+    },
+    {
+      "id": 112,
+      "icon": "speedpotion.bmp",
+      "model": "speedpotion.obj",
+      "scale": 0.28,
+      "mat": "glass",
+      "weight": 450,
+      "healthchange": 0
+    },
+    {
+      "id": 113,
+      "icon": "immortalpotion.bmp",
+      "model": "immortalpotion.obj",
+      "scale": 0.28,
+      "mat": "glass",
+      "weight": 450,
+      "healthchange": 0
+    },
+    {
+      "id": 114,
+      "icon": "airpotion.bmp",
+      "model": "airpotion.obj",
+      "scale": 0.28,
+      "mat": "glass",
+      "weight": 450,
+      "healthchange": 0
+    }
+  ],
+  "stuff": [
+    {
+      "id": 83,
+      "icon": "hempleaf.bmp",
+      "model": "hempleaf.obj",
+      "fx": 16,
+      "mat": "leaf",
+      "weight": 10
+    },
+    {
+      "id": 91,
+      "icon": "joint.bmp",
+      "model": "joint.obj",
+      "scale": 0.65,
+      "mat": "leaf",
+      "weight": 40
+    },
+    {
+      "id": 1,
+      "icon": "bag.bmp",
+      "model": "bag.obj",
+      "mat": "dust",
+      "weight": 100,
+      "healthchange": 0
+    },
+    {
+      "id": 5,
+      "icon": "goldbag.bmp",
+      "model": "goldbag.obj",
+      "mat": "dust",
+      "weight": 350,
+      "healthchange": 0
+    },
+    {
+      "id": 13,
+      "icon": "blueblossom.bmp",
+      "model": "blueblossom.obj",
+      "fx": 16,
+      "mat": "leaf",
+      "weight": 50
+    },
+    {
+      "id": 37,
+      "icon": "poison.bmp",
+      "model": "poison.obj",
+      "scale": 0.3,
+      "mat": "glass",
+      "weight": 50,
+      "healthchange": 0
+    },
+    {
+      "id": 40,
+      "icon": "bottlemessage.bmp",
+      "model": "bottlemessage.obj",
+      "scale": 0.3,
+      "mat": "glass",
+      "weight": 200,
+      "healthchange": 0,
+      "health": 100
+    },
+    {
+      "id": 41,
+      "icon": "grainbundle.bmp",
+      "model": "grainbundle.obj",
+      "behaviour": "plague_target",
+      "fx": 16,
+      "scale": 0.7,
+      "mat": "dust",
+      "weight": 50
+    },
+    {
+      "id": 69,
+      "icon": "butterflies.bmp",
+      "mat": "none",
+      "weight": -500,
+      "healthchange": 0
+    },
+    {
+      "id": 71,
+      "icon": "bone.bmp",
+      "model": "bone.obj",
+      "scale": 0.24,
+      "mat": "stone",
+      "weight": 100,
+      "healthchange": 0
+    },
+    {
+      "id": 72,
+      "icon": "excrement.bmp",
+      "model": "excrement.obj",
+      "scale": 0.39,
+      "mat": "dirt",
+      "weight": 100,
+      "weaponstate": "intoxication",
+      "behaviour": "asmoke: 128,64,0,0 ammo: 51"
+    },
+    {
+      "id": 77,
+      "icon": "ball.bmp",
+      "model": "ball.obj",
+      "mat": "none",
+      "weight": 200,
+      "healthchange": 0
+    },
+    {
+      "id": 78,
+      "icon": "wilson.bmp",
+      "model": "wilson.obj",
+      "fx": 16,
+      "mat": "none",
+      "weight": 300,
+      "healthchange": 0
+    },
+    {
+      "id": 97,
+      "icon": "tentitem.bmp",
+      "model": "tentitem.obj",
+      "scale": 3.5,
+      "weight": 3000,
+      "healthchange": 0
+    },
+    {
+      "id": 100,
+      "icon": "explosivebait.bmp",
+      "model": "explosivebait.obj",
+      "scale": 0.6,
+      "weight": 50,
+      "healthchange": 0,
+      "behaviour": "throw",
+      "damage": 0,
+      "speed": 15,
+      "drag": 1.8,
+      "rate": 3000
+    },
+    {
+      "id": 101,
+      "icon": "remotetrigger.bmp",
+      "model": "remotetrigger.obj",
+      "scale": 1,
+      "weight": 100,
+      "health": 100000,
+      "healthchange": 0
+    },
+    {
+      "id": 102,
+      "icon": "shell.bmp",
+      "model": "shell.obj",
+      "scale": 0.15,
+      "fx": 16,
+      "shine": 0.5,
+      "weight": 50,
+      "healthchange": 0
+    },
+    {
+      "id": 103,
+      "icon": "seastar.bmp",
+      "model": "seastar.obj",
+      "scale": 0.15,
+      "fx": 16,
+      "shine": 0.7,
+      "weight": 30,
+      "behaviour": "spear",
+      "damage": 5,
+      "speed": 10,
+      "drag": 1,
+      "rate": 500
+    },
+    {
+      "id": 106,
+      "icon": "bottle.bmp",
+      "model": "bottle.obj",
+      "scale": 0.08,
+      "fx": 16,
+      "shine": 0.7,
+      "weight": 50,
+      "mat": "glass"
+    },
+    {
+      "id": 108,
+      "icon": "pearl.bmp",
+      "model": "pearl.obj",
+      "shine": 0.9,
+      "mat": "stone",
+      "weight": 10,
+      "scale": 0.5
+    },
+    {
+      "id": 117,
+      "icon": "bandage.bmp",
+      "model": "bandage.obj",
+      "mat": "dust",
+      "scale": 0.75,
+      "weight": 200,
+      "healthchange": 0
+    },
+    {
+      "id": 118,
+      "icon": "medikit.bmp",
+      "model": "medikit.obj",
+      "scale": 0.8,
+      "mat": "metal",
+      "weight": 2500,
+      "health": 200,
+      "healthchange": 0
+    }
+  ],
+  "material": [
+    {
+      "id": 2,
+      "icon": "crystal01.bmp",
+      "model": "crystal01.obj",
+      "color": [
+        0,
+        255,
+        0
+      ],
+      "shine": 1,
+      "blend": 3,
+      "scale": 2,
+      "mat": "stone",
+      "weight": 200,
+      "healthchange": 0
+    },
+    {
+      "id": 3,
+      "icon": "crystal02.bmp",
+      "model": "crystal02.obj",
+      "color": [
+        0,
+        255,
+        0
+      ],
+      "shine": 1,
+      "blend": 3,
+      "scale": 2,
+      "mat": "stone",
+      "weight": 500,
+      "healthchange": 0
+    },
+    {
+      "id": 4,
+      "icon": "goldnugget.bmp",
+      "model": "nugget.obj",
+      "color": [
+        255,
+        255,
+        0
+      ],
+      "shine": 1,
+      "scale": 2,
+      "behaviour": "ammo: 51",
+      "mat": "metal",
+      "weight": 350,
+      "healthchange": 0
+    },
+    {
+      "id": 7,
+      "icon": "trunk.bmp",
+      "model": "trunk.obj",
+      "mat": "wood",
+      "weight": 10000,
+      "healthchange": 0
+    },
+    {
+      "id": 8,
+      "icon": "bambooitem.bmp",
+      "model": "bambooitem.obj",
+      "fx": 16,
+      "scale": 0.3,
+      "mat": "wood",
+      "weight": 100
+    },
+    {
+      "id": 15,
+      "icon": "leaf.bmp",
+      "model": "leaf.obj",
+      "fx": 16,
+      "scale": 0.6,
+      "mat": "leaf",
+      "weight": 30
+    },
+    {
+      "id": 21,
+      "icon": "pebbles.bmp",
+      "model": "pebbles.obj",
+      "scale": 0.4,
+      "behaviour": "ammo: 51",
+      "mat": "stone",
+      "weight": 50,
+      "healthchange": 0,
+      "damage": 5
+    },
+    {
+      "id": 23,
+      "icon": "stone04.bmp",
+      "model": "stone04.obj",
+      "scale": 1.4,
+      "mat": "stone",
+      "weight": 1500,
+      "healthchange": 0
+    },
+    {
+      "id": 24,
+      "icon": "branch.bmp",
+      "model": "branch.obj",
+      "scale": 0.4,
+      "mat": "wood",
+      "weight": 200
+    },
+    {
+      "id": 25,
+      "icon": "bendablebranch.bmp",
+      "model": "bendablebranch.obj",
+      "scale": 0.8,
+      "mat": "wood",
+      "weight": 200
+    },
+    {
+      "id": 26,
+      "icon": "liana.bmp",
+      "model": "liana.obj",
+      "scale": 0.4,
+      "mat": "leaf",
+      "weight": 300,
+      "behaviour": "fastblade",
+      "damage": 0,
+      "rate": 1000
+    },
+    {
+      "id": 48,
+      "icon": "wool.bmp",
+      "model": "wool.obj",
+      "scale": 0.6,
+      "mat": "none",
+      "weight": 30
+    },
+    {
+      "id": 49,
+      "icon": "cord.bmp",
+      "model": "cord.obj",
+      "scale": 0.4,
+      "mat": "none",
+      "weight": 5
+    },
+    {
+      "id": 57,
+      "icon": "feather.bmp",
+      "model": "feather.obj",
+      "fx": 16,
+      "scale": 0.5,
+      "mat": "none",
+      "weight": 1
+    },
+    {
+      "id": 85,
+      "icon": "iron.bmp",
+      "model": "nugget.obj",
+      "color": [
+        220,
+        220,
+        220
+      ],
+      "shine": 1,
+      "scale": 2,
+      "mat": "metal",
+      "weight": 350,
+      "healthchange": -0.1
+    },
+    {
+      "id": 86,
+      "icon": "ironbar.bmp",
+      "model": "ironbar.obj",
+      "shine": 1,
+      "scale": 0.9,
+      "mat": "metal",
+      "weight": 300,
+      "healthchange": -0.1
+    },
+    {
+      "id": 94,
+      "icon": "tooth.bmp",
+      "model": "tooth.obj",
+      "scale": 0.4,
+      "damage": 15,
+      "behaviour": "ammo: 51,ammo: 64",
+      "drag": 0.25,
+      "mat": "stone",
+      "weight": 5,
+      "healthchange": 0
+    },
+    {
+      "id": 95,
+      "icon": "claw.bmp",
+      "model": "claw.obj",
+      "scale": 0.7,
+      "damage": 20,
+      "behaviour": "ammo: 51,ammo: 64",
+      "drag": 0.5,
+      "mat": "stone",
+      "weight": 10,
+      "healthchange": 0
+    },
+    {
+      "id": 96,
+      "icon": "skin.bmp",
+      "model": "skin.obj",
+      "scale": 1,
+      "fx": 16,
+      "mat": "none",
+      "weight": 500
+    },
+    {
+      "id": 107,
+      "icon": "bark.bmp",
+      "model": "bark.obj",
+      "scale": 0.4,
+      "fx": 16,
+      "weight": 40
+    },
+    {}
+  ],
+  "tool": [
+    {
+      "id": 22,
+      "icon": "firestone.bmp",
+      "model": "firestone.obj",
+      "scale": 0.5,
+      "behaviour": "blade",
+      "mat": "stone",
+      "weight": 500,
+      "damage": 5,
+      "healthchange": 0
+    },
+    {
+      "id": 30,
+      "icon": "hammer.bmp",
+      "model": "hammer.obj",
+      "scale": 0.6,
+      "behaviour": "hammer",
+      "mat": "stone",
+      "weight": 1000,
+      "damage": 6,
+      "healthchange": 0
+    },
+    {
+      "id": 50,
+      "icon": "fishingrod.bmp",
+      "model": "fishingrod.obj",
+      "scale": 1.4,
+      "mat": "wood",
+      "weight": 1000,
+      "behaviour": "fishingrod",
+      "damage": 3
+    },
+    {
+      "id": 65,
+      "icon": "watch.bmp",
+      "model": "watch.obj",
+      "scale": 0.32,
+      "behaviour": "watch",
+      "mat": "metal",
+      "weight": 40,
+      "healthchange": 0
+    },
+    {
+      "id": 73,
+      "icon": "map.bmp",
+      "model": "map.obj",
+      "scale": 0.5,
+      "fx": 16,
+      "behaviour": "map",
+      "mat": "none",
+      "weight": 10,
+      "health": 100000,
+      "healthchange": 0
+    },
+    {
+      "id": 84,
+      "icon": "spade.bmp",
+      "model": "spade.obj",
+      "fx": 16,
+      "mat": "metal",
+      "scale": 0.75,
+      "weight": 800,
+      "behaviour": "spade",
+      "damage": 5
+    },
+    {
+      "id": 87,
+      "icon": "axe.bmp",
+      "model": "axe.obj",
+      "scale": 0.6,
+      "behaviour": "blade",
+      "mat": "stone",
+      "weight": 1000,
+      "damage": 5,
+      "healthchange": 0
+    },
+    {
+      "id": 88,
+      "icon": "pickaxe.bmp",
+      "model": "pickaxe.obj",
+      "scale": 0.93,
+      "behaviour": "blade",
+      "mat": "stone",
+      "weight": 1000,
+      "damage": 2,
+      "healthchange": 0
+    },
+    {
+      "id": 92,
+      "icon": "key.bmp",
+      "model": "key.obj",
+      "scale": 1.4,
+      "mat": "metal",
+      "weight": 100,
+      "health": 100000,
+      "healthchange": 0
+    },
+    {
+      "id": 93,
+      "icon": "lockpick.bmp",
+      "model": "lockpick.obj",
+      "scale": 1.4,
+      "mat": "metal",
+      "weight": 100,
+      "health": 100000,
+      "healthchange": 0
+    },
+    {
+      "id": 104,
+      "icon": "net.bmp",
+      "model": "net.obj",
+      "scale": 0.9,
+      "fx": 16,
+      "behaviour": "net",
+      "mat": "wood",
+      "weight": 600,
+      "damage": 0,
+      "rate": 500,
+      "range": 150,
+      "healthchange": 0
+    },
+    {
+      "id": 105,
+      "icon": "scythe.bmp",
+      "model": "scythe.obj",
+      "scale": 0.75,
+      "behaviour": "blade",
+      "mat": "metal",
+      "weight": 1200,
+      "damage": 2,
+      "healthchange": 0,
+      "rate": 800
+    },
+    {
+      "id": 111,
+      "icon": "torchitem.bmp",
+      "model": "torchitem.obj",
+      "scale": 0.75,
+      "behaviour": "torch",
+      "mat": "wood",
+      "weight": 500,
+      "rate": 1000,
+      "damage": 0,
+      "healthchange": 0
+    }
+  ],
+  "weapon": [
+    {
+      "id": 28,
+      "icon": "matchet.bmp",
+      "model": "matchet.obj",
+      "scale": 0.2,
+      "behaviour": "blade",
+      "mat": "metal",
+      "weight": 1000,
+      "damage": 9,
+      "healthchange": 0
+    },
+    {
+      "id": 29,
+      "icon": "bullet.bmp",
+      "model": "bullet.obj",
+      "scale": 0.1,
+      "behaviour": "ammo: 58,ammo: 110",
+      "mat": "metal",
+      "weight": 2,
+      "healthchange": 0
+    },
+    {
+      "id": 51,
+      "icon": "slingshot.bmp",
+      "model": "slingshot.obj",
+      "scale": 0.5,
+      "behaviour": "slingshot",
+      "speed": 11.6,
+      "drag": 1.6,
+      "rate": 750,
+      "mat": "wood",
+      "weight": 400,
+      "damage": 1,
+      "healthchange": 0
+    },
+    {
+      "id": 52,
+      "icon": "spear.bmp",
+      "model": "spear.obj",
+      "scale": 1.3,
+      "mat": "wood",
+      "weight": 500,
+      "behaviour": "spear",
+      "damage": 2,
+      "speed": 13,
+      "drag": 1,
+      "rate": 1500,
+      "healthchange": 0
+    },
+    {
+      "id": 58,
+      "icon": "pistol.bmp",
+      "model": "pistol.obj",
+      "scale": 0.335,
+      "behaviour": "pistol",
+      "range": 10000,
+      "rate": 700,
+      "mat": "metal",
+      "weight": 1800,
+      "damage": 5,
+      "healthchange": 0
+    },
+    {
+      "id": 59,
+      "icon": "bow.bmp",
+      "model": "bow.obj",
+      "scale": 1.2,
+      "behaviour": "bow",
+      "damage": 1,
+      "speed": 17,
+      "drag": 0.59,
+      "mat": "wood",
+      "weight": 800,
+      "healthchange": 0
+    },
+    {
+      "id": 60,
+      "icon": "longbow.bmp",
+      "model": "longbow.obj",
+      "scale": 1.2,
+      "behaviour": "bow",
+      "damage": 1.1,
+      "speed": 21,
+      "drag": 0.25,
+      "rate": 600,
+      "mat": "wood",
+      "weight": 1000,
+      "healthchange": 0
+    },
+    {
+      "id": 61,
+      "icon": "goldbow.bmp",
+      "model": "goldbow.obj",
+      "scale": 1.2,
+      "behaviour": "bow",
+      "damage": 1.9,
+      "speed": 18,
+      "drag": 0.5,
+      "rate": 450,
+      "mat": "metal",
+      "weight": 3500,
+      "healthchange": 0
+    },
+    {
+      "id": 64,
+      "icon": "arbalest.bmp",
+      "model": "arbalest.obj",
+      "scale": 1.4,
+      "behaviour": "bow",
+      "damage": 1,
+      "speed": 25,
+      "drag": 0.01,
+      "rate": 750,
+      "mat": "wood",
+      "weight": 2500,
+      "healthchange": 0
+    },
+    {
+      "id": 74,
+      "icon": "sword.bmp",
+      "model": "sword.obj",
+      "scale": 1.6,
+      "behaviour": "blade",
+      "mat": "metal",
+      "weight": 1000,
+      "damage": 3,
+      "healthchange": 0
+    },
+    {
+      "id": 75,
+      "icon": "broadsword.bmp",
+      "model": "broadsword.obj",
+      "scale": 1.6,
+      "behaviour": "blade",
+      "mat": "metal",
+      "weight": 1250,
+      "damage": 5,
+      "healthchange": 0
+    },
+    {
+      "id": 76,
+      "icon": "crystalblade.bmp",
+      "model": "crystalblade.obj",
+      "scale": 1.6,
+      "behaviour": "blade",
+      "mat": "metal",
+      "weight": 1500,
+      "damage": 45,
+      "healthchange": 0
+    },
+    {
+      "id": 81,
+      "icon": "rocketlauncher.bmp",
+      "model": "rocketlauncher.obj",
+      "fx": 16,
+      "behaviour": "launcher",
+      "damage": 1,
+      "speed": 28,
+      "drag": 0,
+      "rate": 1000,
+      "mat": "metal",
+      "weight": 8500,
+      "healthchange": 0
+    },
+    {
+      "id": 110,
+      "icon": "shotgun.bmp",
+      "model": "shotgun.obj",
+      "scale": 0.335,
+      "behaviour": "gun",
+      "range": 120,
+      "rate": 800,
+      "mat": "metal",
+      "weight": 2500,
+      "damage": 10,
+      "healthchange": 0
+    },
+    {
+      "id": 120,
+      "icon": "clawspear.bmp",
+      "model": "clawspear.obj",
+      "scale": 1.3,
+      "mat": "wood",
+      "weight": 240,
+      "behaviour": "spear",
+      "damage": 2,
+      "speed": 13,
+      "drag": 1,
+      "rate": 1500,
+      "healthchange": 0
+    }
+  ],
+  "ammo": [
+    {
+      "id": 53,
+      "icon": "arrow.bmp",
+      "model": "arrow.obj",
+      "fx": 16,
+      "behaviour": "ammo: 59,ammo: 60,ammo: 61",
+      "scale": 0.5,
+      "mat": "wood",
+      "weight": 5,
+      "damage": 16,
+      "healthchange": 0
+    },
+    {
+      "id": 54,
+      "icon": "arrow_wood.bmp",
+      "model": "arrow_wood.obj",
+      "fx": 16,
+      "behaviour": "ammo: 59,ammo: 60,ammo: 61",
+      "scale": 0.5,
+      "mat": "wood",
+      "weight": 3,
+      "damage": 12,
+      "healthchange": 0
+    },
+    {
+      "id": 55,
+      "icon": "arrow_poison.bmp",
+      "model": "arrow_poison.obj",
+      "fx": 16,
+      "behaviour": "ammo: 59,ammo: 60,ammo: 61",
+      "weaponstate": 2,
+      "scale": 0.5,
+      "mat": "wood",
+      "weight": 10,
+      "damage": 5,
+      "healthchange": 0
+    },
+    {
+      "id": 56,
+      "icon": "arrow_fire.bmp",
+      "model": "arrow_fire.obj",
+      "fx": 16,
+      "behaviour": "ammo: 59,ammo: 60,ammo: 61",
+      "weaponstate": 4,
+      "scale": 0.5,
+      "mat": "wood",
+      "weight": 15,
+      "damage": 3,
+      "healthchange": 0
+    },
+    {
+      "id": 62,
+      "icon": "bolt.bmp",
+      "model": "bolt.obj",
+      "scale": 0.35,
+      "damage": 10,
+      "behaviour": "ammo: 64",
+      "mat": "wood",
+      "weight": 1,
+      "healthchange": 0
+    },
+    {
+      "id": 63,
+      "icon": "ironbolt.bmp",
+      "model": "ironbolt.obj",
+      "scale": 0.35,
+      "mat": "metal",
+      "damage": 16,
+      "behaviour": "ammo: 64",
+      "weight": 2,
+      "healthchange": 0
+    },
+    {
+      "id": 79,
+      "icon": "rocket.bmp",
+      "model": "rocket.obj",
+      "fx": 16,
+      "behaviour": "rocket ammo: 81",
+      "mat": "metal",
+      "weight": 1000,
+      "info": "eine explosive Rakete",
+      "healthchange": 0,
+      "damage": 120
+    },
+    {
+      "id": 80,
+      "icon": "toxicrocket.bmp",
+      "model": "toxicrocket.obj",
+      "fx": 16,
+      "behaviour": "toxicrocket ammo: 81",
+      "mat": "metal",
+      "weight": 1000,
+      "healthchange": 0,
+      "damage": 20
+    }
+  ]
+}

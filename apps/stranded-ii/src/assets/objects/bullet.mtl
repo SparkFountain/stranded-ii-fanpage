@@ -1,0 +1,12 @@
+#
+# bullet.mtl
+#
+
+newmtl Material01
+illum 2
+Kd 0.996078 0.807843 0.160784
+Ka 0.996078 0.956863 0.278431
+Ks 0.000000 0.000000 0.000000
+Ke 0.168627 0.125490 0.043137
+Ns 0.000000
+map_Kd ../textures/.\spheremetal_sm.bmp

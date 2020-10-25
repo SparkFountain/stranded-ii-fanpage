@@ -1,0 +1,1073 @@
+{
+  "tab": {
+    "news": "Neuigkeiten",
+    "stranded-ii": "Stranded II",
+    "download-content": "Download-Material",
+    "modifications": "Modifikationen",
+    "tips-and-tutorials": "Tipps und Tutorials",
+    "options": "Optionen"
+  },
+  "subpage": {
+    "story": "Story",
+    "survive": "Überleben",
+    "animals-and-plants": "Tiere und Pflanzen"
+  },
+  "editor": {
+    "terrain": "Terrain",
+    "objects": "Objekte",
+    "units": "Einheiten",
+    "items": "Items",
+    "infos": "Infos"
+  },
+  "play-online": "Online spielen",
+  "game": {
+    "button": {
+      "cancel": "Abbrechen",
+      "okay": "Okay",
+      "apply": "Übernehmen"
+    },
+    "main-menu": {
+      "adventure": "Abenteuer",
+      "random-island": "Zufallsinsel",
+      "single-island": "Einzelinsel",
+      "load": "Laden",
+      "options": "Optionen",
+      "editor": "Editor",
+      "credits": "Credits",
+      "quit": "Beenden"
+    },
+    "options-menu": {
+      "controls": "Steuerung",
+      "graphics": "Grafik",
+      "sound": "Sound"
+    },
+    "controls": {
+      "action": "Aktion",
+      "key": "Taste",
+      "forward": "Vorwärts",
+      "backward": "Rückwärts",
+      "left": "Links",
+      "right": "Rechts",
+      "jump": "Springen / Menü schließen",
+      "sprint": "Sprinten",
+      "attack": "Angreifen"
+    },
+    "items": {
+      "1": {
+        "name": "Beutel",
+        "info": "Ein praktischer kleiner Beutel. Schade, dass nichts drin ist..."
+      },
+      "2": {
+        "name": "Kleiner Kristall",
+        "info": "Ein kleiner Kristall. Sieht ganz hübsch aus."
+      },
+      "3": {
+        "name": "Kristall",
+        "info": "Ein funkelnder Kristall. Wofür auch immer der gut sein soll..."
+      },
+      "4": {
+        "name": "Goldnugget",
+        "info": "Ein dickes Goldnugget! Ich bin reich! (Auch wenn ich mir auf diesem Eiland dafür wohl nix kaufen kann.)"
+      },
+      "5": {
+        "name": "Goldbeutel",
+        "info": "Ein Beutel voller Gold! Na prima, und was nützt mir das auf einer einsamen Insel?"
+      },
+      "7": {
+        "name": "Baumstamm",
+        "info": "Ein schwerer Baumstamm. Wieso muss ich den mit mir rumschleppen?"
+      },
+      "8": {
+        "name": "Bambus",
+        "info": "Praktisch, so ein hartes Zeug! Daraus lassen sich bestimmt prima Bolzen schneiden, die ich mit einer Armbrust verschießen kann."
+      },
+      "9": {
+        "name": "Fleisch",
+        "info": "Ein saftiges Stück rohes Fleisch. Ich kann es braten, roh essen oder in die Hand nehmen und wilden Tieren zuwerfen."
+      },
+      "10": {
+        "name": "Fleisch (gebraten)",
+        "info": "Ein großes Stück gebratenes Fleisch."
+      },
+      "11": {
+        "name": "Kleines Fleisch",
+        "info": "Ein Stückchen rohes Fleisch. Essbar, bratbar und werfbar."
+      },
+      "12": {
+        "name": "Kleines Fleisch (gebraten)",
+        "info": "Ein gebratenes Stückchen Fleisch."
+      },
+      "13": {
+        "name": "Blaublüte",
+        "info": "Eine Pflanze mit blauen Blüten. Sie kann benutzt werden, um Blutungen zu stoppen."
+      },
+      "14": {
+        "name": "Banane",
+        "info": "Eine köstliche Banane. Schmeckt nicht nur mir, sondern auch Affen!"
+      },
+      "15": {
+        "name": "Blatt",
+        "info": "Ein grünes Blatt. Wenn ich viele davon habe, kann ich mittels eines Steins Wasser aus ihnen pressen."
+      },
+      "16": {
+        "name": "Blutblatt",
+        "info": "Eine Pflanze mit blutroten Blättern."
+      },
+      "17": {
+        "name": "Heilkraut",
+        "info": "Ein Kraut mit heilender Wirkung."
+      },
+      "18": {
+        "name": "Starkes Heilkraut",
+        "info": "Ein Heilkraut mit besonders starker Wirkung."
+      },
+      "19": {
+        "name": "Goldkraut",
+        "info": "Ein goldgelbes Kraut. Hilft gut gegen Benommenheit."
+      },
+      "20": {
+        "name": "Bitterwurzel",
+        "info": "Ein extrem bitteres Wurzelgewächs."
+      },
+      "21": {
+        "name": "Kieselsteine",
+        "info": "Kleine Kieselsteine - die geben sicher eine gute Munition ab. Fehlt nur noch was zum Verschießen."
+      },
+      "22": {
+        "name": "Feuerstein",
+        "info": "Wenn ich zwei davon habe, kann ich Fackeln und Feuerstellen damit anzünden, indem ich sie gegeneinander schlage. Ein einzelner ist wertlos..."
+      },
+      "23": {
+        "name": "Stein",
+        "info": "Ein dicker Stein, mit dem sich nützliche Sachen basteln lassen."
+      },
+      "24": {
+        "name": "Ast",
+        "info": "Sehr praktisch zur Herstellung der verschiedensten Dinge. Kann auch mit Wasser biegbar gemacht oder am Feuer angezündet werden."
+      },
+      "25": {
+        "name": "Biegbarer Ast",
+        "info": "Ein Ast, welcher mittels Wasser weich und biegsam gemacht wurde."
+      },
+      "26": {
+        "name": "Liane",
+        "info": "Eine lange Liane. Ich kann sie unter anderem als Peitsche benutzen, um Tiere durch die Gegend zu treiben."
+      },
+      "27": {
+        "name": "Kokosnuss",
+        "info": "Eine Kokosnuss. Aufgrund der harten Hülle wird es allerdings lange dauern, sie zu essen."
+      },
+      "28": {
+        "name": "Machete",
+        "info": "Eine scharfe Machete. Sie eignet sich gut für den Nahkampf. Wenn ich damit auf Bäume einschlage, kann ich besonders leicht Rinde abtrennen."
+      },
+      "29": {
+        "name": "Kugel",
+        "info": "Gute Munition für Schusswaffen."
+      },
+      "30": {
+        "name": "Hammer",
+        "info": "Damit kann ich Sachen bauen oder ihn einfach nur als Waffe benutzen. Außerdem wird er bei Kombinationen mit Eisen benötigt, um dieses bearbeiten zu können."
+      },
+      "31": {
+        "name": "Pilz",
+        "info": "Ein Pilz."
+      },
+      "32": {
+        "name": "Großer Pilz",
+        "info": "Ein großer Pilz."
+      },
+      "33": {
+        "name": "Braunpilz",
+        "info": "Ein brauner Pilz."
+      },
+      "34": {
+        "name": "Giftpilz",
+        "info": "Ein grüner Giftpilz. Nicht sehr bekömmlich, aber mittels eines Steins sollte sich das Gift herauspressen lassen."
+      },
+      "35": {
+        "name": "Zwergenhut",
+        "info": "Ein kleiner Pilz, welcher aufgrund seines Aussehens auch Zwergenhut genannt wird."
+      },
+      "36": {
+        "name": "Heiltrank",
+        "info": "Ein Heiltrank, welcher den Spieler 30 Sekunden lang heilt."
+      },
+      "37": {
+        "name": "Gift",
+        "info": "Giftgrünes Gift (toller Wortwitz). Wie das wohl schmeckt? Vielleicht sollte ich mal kosten..."
+      },
+      "38": {
+        "name": "Wasser",
+        "info": "Frisches Trinkwasser. Kann auch zum Löschen in die Hand genommen und dann auf Feuer geworfen werden."
+      },
+      "39": {
+        "name": "Wein",
+        "info": "Wohlschmeckender Wein. Sollte nicht in zu großen Mengen konsumiert werden..."
+      },
+      "40": {
+        "name": "Flaschenpost",
+        "info": "Eine Flasche mit einer Nachricht drin. Was dort wohl drin steht?"
+      },
+      "41": {
+        "name": "Getreidegarbe",
+        "info": "Ich muss dieses Getreidebündel benutzen, um die Körner rauszuschütteln. In diesem Zustand bringt es mir nichts."
+      },
+      "42": {
+        "name": "Körner",
+        "info": "Lassen sich mit einem Stein mahlen oder in die Hand nehmen und dann durch Benutzen des Bodens einpflanzen."
+      },
+      "43": {
+        "name": "Mehl",
+        "info": "Ein Haufen Mehl. Mit Wasser sollte es sich zu Teig verarbeiten lassen."
+      },
+      "44": {
+        "name": "Brot",
+        "info": "Ein Laib Brot. Extrem sättigend!"
+      },
+      "45": {
+        "name": "Weintrauben",
+        "info": "Sie können pur gegessen oder auch zu Wein verarbeitet werden. Wenn ich sie in die Hand nehme und dann den Boden benutze, kann ich sie einpflanzen."
+      },
+      "46": {
+        "name": "Beeren",
+        "info": "Süße rote Beeren."
+      },
+      "47": {
+        "name": "Saft",
+        "info": "Gesunder Saft aus leckeren Früchten."
+      },
+      "48": {
+        "name": "Wolle",
+        "info": "Tolle Wolle. Leider keine Zuckerwatte. Ich kann sie benutzen, um Schnur daraus zu spinnen."
+      },
+      "49": {
+        "name": "Schnur",
+        "info": "Eine reißfeste Schnur - damit lassen sich Netze weben, um Fische oder Schmetterlinge zu fangen."
+      },
+      "50": {
+        "name": "Angel",
+        "info": "Eine krumme Angel, mit der ich mir Fische besorgen kann! Durch häufiges Angeln erhöhe ich meine Fähigkeiten und somit auch meine Erfolgschancen."
+      },
+      "51": {
+        "name": "Steinschleuder",
+        "info": "Eine Steinschleuder zum Verschießen von kleinem Zeug wie Kieselsteinen."
+      },
+      "52": {
+        "name": "Speer",
+        "info": "Ein spitzer Wurfspeer, der starken Schaden bei Tieren verursacht, aber nur einmal geworfen werden kann - es sei denn ich bin ein geübter Jäger."
+      },
+      "53": {
+        "name": "Pfeil",
+        "info": "Ein Pfeil mit harter Spitze - verursacht erhöhten Schaden."
+      },
+      "54": {
+        "name": "Holzpfeil",
+        "info": "Ein einfacher Holzpfeil - verursacht durschnittlichen Schaden."
+      },
+      "55": {
+        "name": "Giftpfeil",
+        "info": "Dieser Pfeil vergiftet das Ziel. Wenn das Opfer kein Gegenmittel hat, wird es daran früher oder später verenden."
+      },
+      "56": {
+        "name": "Feuerpfeil",
+        "info": "Damit lassen sich wunderbar Sachen aus der Ferne anzünden - böse Tiere inbegriffen. Der eigentliche Treffer verursacht kaum Schaden - dafür das Feuer um so mehr."
+      },
+      "57": {
+        "name": "Feder",
+        "info": "Federn von irgendwelchen Vögeln."
+      },
+      "58": {
+        "name": "Pistole",
+        "info": "Diese Pistole hat eine sehr hohe Reichweite und Zielgenauigkeit."
+      },
+      "59": {
+        "name": "Bogen",
+        "info": "Ein einfacher Bogen zum Verschießen von Pfeilen."
+      },
+      "60": {
+        "name": "Langbogen",
+        "info": "Ein großer Bogen mit besonders hoher Reichweite."
+      },
+      "61": {
+        "name": "Goldbogen",
+        "info": "Ein edler Bogen aus Gold - verursacht viel Schaden!"
+      },
+      "62": {
+        "name": "Bolzen",
+        "info": "Ein Bolzen aus Holz, der zum Beispiel mit einer Armbrust verschossen werden kann."
+      },
+      "63": {
+        "name": "Eisenbolzen",
+        "info": "Ein spitzer Eisenbolzen. Tut ziemlich weh, wenn man den abbekommt..."
+      },
+      "64": {
+        "name": "Armbrust",
+        "info": "Eine hölzerne Armbrust zum Verschießen von Bolzen. Die abgeschossenen Projektile fliegen schneller und weiter als bei Bögen."
+      },
+      "65": {
+        "name": "Uhr",
+        "info": "Sie zeigt mir die genaue Uhrzeit an."
+      },
+      "66": {
+        "name": "Keks",
+        "info": "Kekse mit Schokostückchen! Yay!"
+      },
+      "67": {
+        "name": "Kakaofrucht",
+        "info": "Eine Kakaofrucht."
+      },
+      "68": {
+        "name": "Kakao",
+        "info": "Trockenes Kakaopulver."
+      },
+      "69": {
+        "name": "Schmetterlinge",
+        "info": "Diese Schmetterlinge fliegen rum und helfen mir so beim Tragen von schwerem Zeug. Danke, liebe Schmetterlinge! Ihr habt was bei mir gut!"
+      },
+      "70": {
+        "name": "Kaffeekirschen",
+        "info": "Koffeinhaltige Kaffeekirschen."
+      },
+      "71": {
+        "name": "Knochen",
+        "info": "Ihhhh - ein Knochen. Ich bin doch kein Hund! Was soll ich damit?"
+      },
+      "72": {
+        "name": "Exkrement",
+        "info": "Ein formschönes Exkrement. Im Volksmund auch Kacke oder Scheiße genannt. Das Zeug stinkt so sehr, dass ich damit vermutlich Tiere vergiften könnte..."
+      },
+      "73": {
+        "name": "Landkarte",
+        "info": "Eine Landkarte! Endlich nicht mehr ahnungslos durch die Gegend irren."
+      },
+      "74": {
+        "name": "Schwert",
+        "info": "Ein einfaches Schwert, wie im Mittelalter. Ob es da auch schon Gestrandete gab?"
+      },
+      "75": {
+        "name": "Breitschwert",
+        "info": "Ein Schwert mit besonders breiter Klinge - für noch mehr Mittelalter-Feeling in den Tropen..."
+      },
+      "76": {
+        "name": "Kristallklinge",
+        "info": "Ein Schwert mit einer Klinge aus unglaublich hartem und scharfem Kristall. Gehört zur Grundausrüstung eines jeden Survival-Experten..."
+      },
+      "77": {
+        "name": "Volleyball",
+        "info": "Ja supi! Jetzt brauche ich nur noch ein Netz und einen Gegner."
+      },
+      "78": {
+        "name": "Wilson",
+        "info": "Mein bester Freund Wilson. Hoffentlich werde ich dafür nicht von den 'Cast Away'-Leuten verklagt..."
+      },
+      "79": {
+        "name": "Rakete",
+        "info": "Flugkörper für einen Raketenwerfer - verursacht beim Einschlag gigantischen Schaden!"
+      },
+      "80": {
+        "name": "Giftgas-Rakete",
+        "info": "Kein Wunder, warum solche Spielzeuge selbst im Krieg verboten sind. Alles in ihrem Umkreis wird sofort vergiftet und erholt sich nicht mehr von selbst."
+      },
+      "81": {
+        "name": "Raketenwerfer",
+        "info": "Das Teil ist höllisch schwer und auf einer einsamen Insel völlig überflüssig... Es sei denn, ich finde keinen besseren Weg um Feuer zu machen."
+      },
+      "82": {
+        "name": "Teig",
+        "info": "Einfacher Teig aus Mehl und Wasser. Ich kann ihn in der Nähe von Feuer benutzen, um ihn zu backen."
+      },
+      "83": {
+        "name": "Hanfblatt",
+        "info": "Hanf mit berauschender Wirkung..."
+      },
+      "84": {
+        "name": "Spaten",
+        "info": "Damit kann ich Schätze und Kleinkram ausgraben oder Tieren eins überbraten."
+      },
+      "85": {
+        "name": "Eisen",
+        "info": "Ein Klumpen Eisen. Mittels Hammer lässt er sich zu einer Eisenstange umformen. Aber auch direkt in Klumpenform kann ich Werkzeuge daraus herstellen."
+      },
+      "86": {
+        "name": "Eisenstange",
+        "info": "Eine robuste Eisenstange. Wichtiger Rohstoff für diverse Werkzeuge!"
+      },
+      "87": {
+        "name": "Axt",
+        "info": "Alles was aus Holz ist, kann ich damit recht schnell umhauen."
+      },
+      "88": {
+        "name": "Spitzhacke",
+        "info": "Eignet sich hervorragend, um Mineralien aus Gesteinen zu hauen oder Felsen zu beseitigen."
+      },
+      "89": {
+        "name": "Fisch",
+        "info": "Ein roher Fisch. Kann im Sushi-Style gegessen oder auch gebraten werden."
+      },
+      "90": {
+        "name": "Fisch (gebraten)",
+        "info": "Ein gebratener Fisch."
+      },
+      "91": {
+        "name": "Joint",
+        "info": "Ein Joint, der ordentlich reinhaut. Ich sollte ihn schnellstmöglich entsorgen - Drogen sind böse! Pfui!"
+      },
+      "92": {
+        "name": "Schlüssel",
+        "info": "Ein kleiner Schlüssel - wahrscheinlich passt er zu einer geheimen Schatztruhe im Sand..."
+      },
+      "93": {
+        "name": "Dietrich",
+        "info": "Ein Werkzeug, mit dem ich Schlösser knacken kann."
+      },
+      "94": {
+        "name": "Zahn",
+        "info": "Ein spitzer Zahn."
+      },
+      "95": {
+        "name": "Kralle",
+        "info": "Eine scharfe Kralle von irgendwelchen bedrohlichen Tieren."
+      },
+      "96": {
+        "name": "Haut",
+        "info": "Haut- und Fell-Gedöns von irgendwelchem Viehzeug. In Kombination mit Ästen könnte ich daraus sicherlich ein Zelt basteln."
+      },
+      "97": {
+        "name": "Zelt",
+        "info": "Ein Zelt, welches ich mit einem Hammer aufbauen kann. Bei Bedarf kann ich es einfach wieder abbauen und woanders erneut errichten!"
+      },
+      "98": {
+        "name": "Insektenteile",
+        "info": "Knusprige Insektenteile, welche auch als Köder benutzt werden können, wenn ich angle."
+      },
+      "99": {
+        "name": "Schleim",
+        "info": "Ekelhafter, klebriger Schleim."
+      },
+      "100": {
+        "name": "Explosiver Köder",
+        "info": "Ein explosiver Köder, welcher per Fernsteuerung gezündet wird. Ich kann ihn in die Hand nehmen, um ihn dann Tieren zuzuwerfen."
+      },
+      "101": {
+        "name": "Fernzünder",
+        "info": "Ein Fernzünder für explosive Köder."
+      },
+      "102": {
+        "name": "Muschel",
+        "info": "Eine Muschel. Was da wohl drin ist?"
+      },
+      "103": {
+        "name": "Seestern",
+        "info": "Ein Seestern. Ich taufe ihn Patrick. Juhu!"
+      },
+      "104": {
+        "name": "Netz",
+        "info": "Damit kann man kleine Tiere fangen, die in der Gegend herumfliegen."
+      },
+      "105": {
+        "name": "Sense",
+        "info": "Hervorragend geeignet, um schneller Getreide zu ernten, aber auch effektiv gegen Tiere und vor allem Büsche. Allerdings ist es recht anstrengend, mit ihr auszuholen."
+      },
+      "106": {
+        "name": "Flasche",
+        "info": "Eine leere Glasflasche, welche an sprudelnden Quellen mit Wasser aufgefüllt werden kann."
+      },
+      "107": {
+        "name": "Rinde",
+        "info": "Ein Stück Baumrinde. Wenn ich es richtig anstelle, kann ich damit vielleicht Feuer machen..."
+      },
+      "108": {
+        "name": "Perle",
+        "info": "Eine glänzende Perle!"
+      },
+      "109": {
+        "name": "Seetang",
+        "info": "Schleimiges, grünes Seegras."
+      },
+      "110": {
+        "name": "Schrotflinte",
+        "info": "Das Ding haut ordentlich rein! Dafür streut es aber auch so sehr, dass ich mich schon direkt vor's Ziel stellen muss, um damit überhaupt treffen zu können!"
+      },
+      "111": {
+        "name": "Fackel",
+        "info": "Erhellt die Umgebung und kann andere Objekte in Brand setzen, wenn man mit ihr auf sie einschlägt."
+      },
+      "112": {
+        "name": "Trank der Hast",
+        "info": "Ein Trank, der die Bewegungsgeschwindigkeit für eine Minute verdoppelt."
+      },
+      "113": {
+        "name": "Unsterblichkeitstrank",
+        "info": "Dieser Trank macht mich für eine halbe Minute unsterblich!"
+      },
+      "114": {
+        "name": "Lufttrank",
+        "info": "Ein spezielles Luftgemisch, das während des Tauchens getrunken werden kann und Atemluft für bis zu 20 Sekunden gibt."
+      },
+      "115": {
+        "name": "Schokoteig",
+        "info": "Ein Teig mit Kakaopulver drin. Ich kann ihn in der Nähe von Feuer benutzen, um ihn zu backen."
+      },
+      "116": {
+        "name": "Pflaumen",
+        "info": "Pflaumen! Gut für die Verdauung! Hihihi..."
+      },
+      "117": {
+        "name": "Bandage",
+        "info": "Eine Bandage zum Verbinden von Wunden - damit kann ich Blutungen stoppen."
+      },
+      "118": {
+        "name": "Erste-Hilfe-Kasten",
+        "info": "Mit diesem Teil können Blutungen und Brüche behandelt werden. Außerdem enthält es eine Reihe an Medikamenten gegen Vergiftungen. Es kann unbegrenzt oft eingesetzt werden."
+      },
+      "119": {
+        "name": "Wurm",
+        "info": "Ein kleiner Wurm. Wenn ich damit angle, steigt meine Chance auf einen dicken Fang!"
+      },
+      "120": {
+        "name": "Klauen-Speer",
+        "info": "Ein Speer mit scharfen Klauen, welcher einmalig geworfen wird und beim Ziel schwere blutende Wunden verursacht."
+      }
+    },
+    "objects": {
+      "1": {
+        "name": "Palme"
+      },
+      "2": {
+        "name": "Palme"
+      },
+      "3": {
+        "name": "Palme"
+      },
+      "4": {
+        "name": "Palme"
+      },
+      "5": {
+        "name": "Palme"
+      },
+      "6": {
+        "name": "Palme"
+      },
+      "7": {
+        "name": "Große Palme"
+      },
+      "8": {
+        "name": "Bananenpalme",
+        "info": "Hier wachsen Bananen."
+      },
+      "9": {
+        "name": "Kokosnusspalme",
+        "info": "Hier wachsen Kokosnüsse."
+      },
+      "10": {
+        "name": "Baum"
+      },
+      "11": {
+        "name": "Baum"
+      },
+      "12": {
+        "name": "Baum"
+      },
+      "13": {
+        "name": "Baum"
+      },
+      "14": {
+        "name": "Baum"
+      },
+      "15": {
+        "name": "Baum"
+      },
+      "16": {
+        "name": "Baum"
+      },
+      "17": {
+        "name": "Lianenbaum"
+      },
+      "18": {
+        "name": "Kakaobaum",
+        "info": "Hier wachsen Kakaofrüchte."
+      },
+      "19": {
+        "name": "Kaffeebaum",
+        "info": "Hier wachsen Kaffeekirschen."
+      },
+      "20": {
+        "name": "Tanne"
+      },
+      "21": {
+        "name": "Tanne"
+      },
+      "30": {
+        "name": "Kahler Busch"
+      },
+      "31": {
+        "name": "Busch"
+      },
+      "32": {
+        "name": "Busch"
+      },
+      "33": {
+        "name": "Busch"
+      },
+      "34": {
+        "name": "Busch"
+      },
+      "35": {
+        "name": "Blaublüte",
+        "info": "Liefert Blaublüten."
+      },
+      "36": {
+        "name": "Busch"
+      },
+      "37": {
+        "name": "Busch"
+      },
+      "38": {
+        "name": "Busch"
+      },
+      "39": {
+        "name": "Busch"
+      },
+      "40": {
+        "name": "Busch"
+      },
+      "41": {
+        "name": "Busch"
+      },
+      "42": {
+        "name": "Busch"
+      },
+      "43": {
+        "name": "Schilf"
+      },
+      "44": {
+        "name": "Weinrebe",
+        "info": "Hier wachsen Weintrauben."
+      },
+      "45": {
+        "name": "Busch"
+      },
+      "46": {
+        "name": "Beerenbusch",
+        "info": "Hier wachsen Beeren."
+      },
+      "47": {
+        "name": "Baumwollpflanze",
+        "info": "Liefert Wolle."
+      },
+      "48": {
+        "name": "Seetang"
+      },
+      "49": {
+        "name": "Luftalge",
+        "info": "Der Spieler bekommt neue Luft, wenn er es beim Tauchen benutzt."
+      },
+      "50": {
+        "name": "Gras"
+      },
+      "51": {
+        "name": "Gras"
+      },
+      "52": {
+        "name": "Gras"
+      },
+      "53": {
+        "name": "Wiese"
+      },
+      "60": {
+        "name": "Stein"
+      },
+      "61": {
+        "name": "Stein"
+      },
+      "62": {
+        "name": "Stein"
+      },
+      "63": {
+        "name": "Felsen"
+      },
+      "64": {
+        "name": "Felsen"
+      },
+      "65": {
+        "name": "Felsen"
+      },
+      "66": {
+        "name": "Stein"
+      },
+      "67": {
+        "name": "Felsen"
+      },
+      "68": {
+        "name": "Felsen"
+      },
+      "69": {
+        "name": "Felsen"
+      },
+      "70": {
+        "name": "Metallfelsen",
+        "info": "Liefert Eisen. Mit einer Spitzhacke kann dieses besonders gut abgebaut werden."
+      },
+      "71": {
+        "name": "Goldfelsen",
+        "info": "Mit einer Spitzhacke kann hier Gold abgebaut werden."
+      },
+      "72": {
+        "name": "Kristallfelsen",
+        "info": "Mit einer Spitzhacke können hier Kristalle abgebaut werden."
+      },
+      "73": {
+        "name": "Wasserfelsen",
+        "info": "Ein mit Regenwasser gefüllter Felsen. Ist nach fünfmal Trinken leer, bis es wieder regnet."
+      },
+      "74": {
+        "name": "Wasserfelsen (leer)",
+        "info": "Ein Felsen, in dem sich Regenwasser sammelt, sobald es regnet."
+      },
+      "75": {
+        "name": "Quelle",
+        "info": "Eine Quelle, welche unbegrenzt Wasser liefert."
+      },
+      "100": {
+        "name": "Blumen"
+      },
+      "101": {
+        "name": "Blumen"
+      },
+      "102": {
+        "name": "Blumen"
+      },
+      "103": {
+        "name": "Blumen"
+      },
+      "104": {
+        "name": "Blumen"
+      },
+      "105": {
+        "name": "Blumen"
+      },
+      "106": {
+        "name": "Blumen"
+      },
+      "107": {
+        "name": "Blumen"
+      },
+      "108": {
+        "name": "Blumen"
+      },
+      "109": {
+        "name": "Blumen"
+      },
+      "110": {
+        "name": "Giftblume"
+      },
+      "120": {
+        "name": "Bambus"
+      },
+      "121": {
+        "name": "Getreide",
+        "info": "Liefert Körner, welche angefplanzt werden können. Viel Getreide verursacht Heuschreckenplagen."
+      },
+      "122": {
+        "name": "Marmorzylinder"
+      },
+      "123": {
+        "name": "Marmorsäule"
+      },
+      "124": {
+        "name": "Marmorplatte"
+      },
+      "125": {
+        "name": "Marmorboden"
+      },
+      "130": {
+        "name": "Wurzeln"
+      },
+      "131": {
+        "name": "Wurzeln"
+      },
+      "132": {
+        "name": "Baumstumpf"
+      },
+      "133": {
+        "name": "Palmenstumpf"
+      },
+      "134": {
+        "name": "Hanf",
+        "info": "Liefert Hanfblätter und kann angepflanzt werden. Aus den Hanfblättern können Joints gedreht werden."
+      },
+      "135": {
+        "name": "Langer Baumstumpf"
+      },
+      "136": {
+        "name": "Kiste"
+      },
+      "137": {
+        "name": "Fass"
+      },
+      "138": {
+        "name": "Wrack"
+      },
+      "139": {
+        "name": "Explosives Fass",
+        "info": "Explodiert, wenn es zerstört wird."
+      },
+      "140": {
+        "name": "Ruinen"
+      },
+      "141": {
+        "name": "Ruinen"
+      },
+      "142": {
+        "name": "Ruinen"
+      },
+      "143": {
+        "name": "Ruinen"
+      },
+      "144": {
+        "name": "Ruinen"
+      },
+      "145": {
+        "name": "Ruinen"
+      },
+      "146": {
+        "name": "Ruinen"
+      },
+      "147": {
+        "name": "Ruinen"
+      },
+      "148": {
+        "name": "Höhle",
+        "info": "Bietet Schutz zum Schlafen."
+      },
+      "150": {
+        "name": "Baustelle"
+      },
+      "151": {
+        "name": "Baustelle"
+      },
+      "160": {
+        "name": "Bambushütte",
+        "info": "Bietet Schutz zum Schlafen."
+      },
+      "161": {
+        "name": "Bambushütte",
+        "info": "Bietet Schutz zum Schlafen."
+      },
+      "162": {
+        "name": "Bambushütte",
+        "info": "Bietet Schutz zum Schlafen."
+      },
+      "163": {
+        "name": "Zaun"
+      },
+      "164": {
+        "name": "Zaun"
+      },
+      "165": {
+        "name": "Unterstand",
+        "info": "Bietet Schutz zum Schlafen."
+      },
+      "166": {
+        "name": "Fackel"
+      },
+      "167": {
+        "name": "Fackel"
+      },
+      "168": {
+        "name": "Bretterwand"
+      },
+      "169": {
+        "name": "Bretterwand"
+      },
+      "170": {
+        "name": "Bretter"
+      },
+      "171": {
+        "name": "Lagerfeuer",
+        "info": "Hier kann Feuer zum Braten oder Backen gemacht werden."
+      },
+      "172": {
+        "name": "Lagerfeuer",
+        "info": "Hier kann Feuer zum Braten oder Backen gemacht werden."
+      },
+      "173": {
+        "name": "Schild"
+      },
+      "174": {
+        "name": "Wegweiser"
+      },
+      "175": {
+        "name": "Wegweiser"
+      },
+      "178": {
+        "name": "Steg"
+      },
+      "179": {
+        "name": "Steg"
+      },
+      "180": {
+        "name": "Steg"
+      },
+      "181": {
+        "name": "Lager",
+        "info": "Ermöglicht das Einlagern von Gegenständen."
+      },
+      "182": {
+        "name": "Großer Zaun"
+      },
+      "183": {
+        "name": "Metallzaun"
+      },
+      "184": {
+        "name": "Zelt",
+        "info": "Bietet Schutz zum Schlafen und kann abgebaut werden, um es an einem anderen Ort wieder aufzubauen."
+      },
+      "185": {
+        "name": "Busch"
+      },
+      "186": {
+        "name": "Knallpilz",
+        "info": "Explodiert, sobald der Spieler in der Nähe ist."
+      },
+      "187": {
+        "name": "Wasserleitung"
+      },
+      "188": {
+        "name": "Wasserleitung"
+      },
+      "189": {
+        "name": "Brunnen",
+        "info": "Bietet Trinkwasser."
+      },
+      "190": {
+        "name": "Baumhaus",
+        "info": "Bietet Schutz zum Schlafen."
+      },
+      "191": {
+        "name": "Reuse",
+        "info": "Fängt automatisch über Nacht Fische und andere Dinge."
+      },
+      "192": {
+        "name": "Zielscheibe"
+      },
+      "193": {
+        "name": "Bambusturm"
+      },
+      "194": {
+        "name": "Haus",
+        "info": "Bietet Schutz zum Schlafen."
+      },
+      "195": {
+        "name": "Pflaumenbaum",
+        "info": "Hier wachsen Pflaumen."
+      },
+      "196": {
+        "name": "Raptornest",
+        "info": "Erzeugt über Nacht einen Raptor, wenn noch keiner in der Nähe ist."
+      },
+      "197": {
+        "name": "Kiwinest",
+        "info": "Erzeugt über Nacht einen Kiwi-Vogel, wenn noch keiner in der Nähe ist."
+      },
+      "198": {
+        "name": "Papageinest",
+        "info": "Erzeugt über Nacht einen Papagei, wenn noch keiner in der Nähe ist."
+      },
+      "199": {
+        "name": "Löwenstein",
+        "info": "Erzeugt über Nacht einen Löwen, wenn noch keiner in der Nähe ist."
+      },
+      "200": {
+        "name": "Hochsitz",
+        "info": "Bietet Schutz zum Schlafen und kann als Aussichtsturm genutzt werden."
+      },
+      "201": {
+        "name": "Kiwizucht",
+        "info": "Hier entsteht alle zwei Nächte ein Kiwi-Vogel, bis maximal drei vorhanden sind."
+      },
+      "202": {
+        "name": "Moos",
+        "info": "Erzeugt über Nacht Pilze und Schnecken."
+      },
+      "203": {
+        "name": "Abdeckung"
+      },
+      "204": {
+        "name": "Vogelnest",
+        "info": "Erzeugt über Nacht einen Vogel, wenn noch keiner in der Nähe ist."
+      },
+      "205": {
+        "name": "Falle",
+        "info": "Kann über Nacht ein kleines Tier fangen, wenn sie offen steht."
+      },
+      "206": {
+        "name": "Hütte",
+        "info": "Bietet Schutz zum Schlafen."
+      },
+      "207": {
+        "name": "Kräuterbeet",
+        "info": "Hier wachsen über Nacht Kräuter."
+      },
+      "208": {
+        "name": "Kaputter Brunnen",
+        "info": "Ein Brunnen, welcher erst freigeschaufelt werden muss, bevor er genutzt werden kann."
+      },
+      "209": {
+        "name": "Kaputte Reuse",
+        "info": "Ist nicht funktionstüchtig, aber bringt bei Benutzung ein paar Gegenstände."
+      },
+      "210": {
+        "name": "Koralle",
+        "info": "Erzeugt über Nacht einen Fisch, wenn noch keiner in der Nähe ist."
+      },
+      "211": {
+        "name": "Tisch"
+      },
+      "212": {
+        "name": "Schreibtisch"
+      },
+      "213": {
+        "name": "Lianenpalme"
+      },
+      "214": {
+        "name": "Großes Lager",
+        "info": "Ermöglicht das Einlagern von Gegenständen."
+      },
+      "215": {
+        "name": "Garten",
+        "info": "Erzeugt Schmetterlinge"
+      },
+      "216": {
+        "name": "Hängematte",
+        "info": "Ein super Schlafplatz"
+      },
+      "217": {
+        "name": "Affen-Schule"
+      },
+      "218": {
+        "name": "Palisadenwall"
+      },
+      "219": {
+        "name": "Tor"
+      },
+      "220": {
+        "name": "Holzlager",
+        "info": "Hier können Baumstämme, Äste und Rinde gelagert werden."
+      },
+      "221": {
+        "name": "Adlerhorst",
+        "info": "Erzeugt über Nacht einen Adler, wenn noch keiner in der Nähe ist."
+      },
+      "222": {
+        "name": "Steinlager",
+        "info": "Hier können Steine gelagert werden."
+      },
+      "223": {
+        "name": "Abwehrturm",
+        "info": "Nimmt automatisch Feinde im Umkreis unter Beschuss."
+      }
+    }
+  }
+}
